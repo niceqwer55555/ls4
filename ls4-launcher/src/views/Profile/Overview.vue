@@ -1,5 +1,7 @@
 <template>
-  <div><div class="end-title">Overview</div></div>
+    <div>
+        <div class="end-title">Overview</div>
+    </div>
 </template>
 
 <script>
