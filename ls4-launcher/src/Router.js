@@ -31,117 +31,117 @@ import Bugreport from "@/views/BugReport.vue";
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: "/",
-    name: "Login",
-    component: Login
-  },
-  {
-    path: "/lobby",
-    name: "Lobby",
-    component: Lobby
-  },
-  {
-    path: "/lobbyCustom",
-    name: "LobbyCustom",
-    component: LobbyCustom
-  },
-  {
-    path: "/champselect",
-    name: "ChampSelection",
-    component: ChampSelect
-  },
-  {
-    path: "/LoggedIn",
-    name: "LoggedIn",
-    component: LoggedIn,
-    redirect: "/LoggedIn/home",
-    children: [
-      {
-        path: "/LoggedIn/play",
-        name: "Play",
-        component: Play
-      },
-      {
-        path: "/LoggedIn/home",
-        name: "Home",
-        component: HomeOverview
-      },
-      {
-        path: "/LoggedIn/profile",
-        name: "Profile",
-        component: Profile,
-        redirect: "/LoggedIn/profile/overview",
+    {
+        path: "/",
+        name: "Login",
+        component: Login
+    },
+    {
+        path: "/lobby",
+        name: "Lobby",
+        component: Lobby
+    },
+    {
+        path: "/lobbyCustom",
+        name: "LobbyCustom",
+        component: LobbyCustom
+    },
+    {
+        path: "/champselect",
+        name: "ChampSelection",
+        component: ChampSelect
+    },
+    {
+        path: "/LoggedIn",
+        name: "LoggedIn",
+        component: LoggedIn,
+        redirect: "/LoggedIn/home",
         children: [
-          {
-            path: "/LoggedIn/profile/overview",
-            name: "ProfileOverview",
-            component: ProfileOverview
-          }
+            {
+                path: "/LoggedIn/play",
+                name: "Play",
+                component: Play
+            },
+            {
+                path: "/LoggedIn/home",
+                name: "Home",
+                component: HomeOverview
+            },
+            {
+                path: "/LoggedIn/profile",
+                name: "Profile",
+                component: Profile,
+                redirect: "/LoggedIn/profile/overview",
+                children: [
+                    {
+                        path: "/LoggedIn/profile/overview",
+                        name: "ProfileOverview",
+                        component: ProfileOverview
+                    }
+                ]
+            },
+            {
+                path: "/LoggedIn/store",
+                name: "Store",
+                component: Store,
+                redirect: "/LoggedIn/store/skins",
+                children: [
+                    {
+                        path: "/LoggedIn/store/skins",
+                        name: "StoreSkins",
+                        component: StoreSkins
+                    },
+                    {
+                        path: "/LoggedIn/store/icons",
+                        name: "StoreIcons",
+                        component: StoreIcons
+                    },
+                    {
+                        path: "/LoggedIn/store/boosts",
+                        name: "StoreBoosts",
+                        component: StoreBoosts
+                    },
+                    {
+                        path: "/LoggedIn/store/launcher",
+                        name: "StoreLauncher",
+                        component: StoreLauncher
+                    },
+                    {
+                        path: "/LoggedIn/store/account",
+                        name: "StoreAccount",
+                        component: StoreAccount
+                    }
+                ]
+            },
+            {
+                path: "/LoggedIn/collection",
+                name: "Collection",
+                component: Collection,
+                redirect: "/LoggedIn/collection/champions",
+                children: [
+                    {
+                        path: "/LoggedIn/collection/champions",
+                        name: "Champions",
+                        component: CollectionChampions
+                    }
+                ]
+            }
         ]
-      },
-      {
-        path: "/LoggedIn/store",
-        name: "Store",
-        component: Store,
-        redirect: "/LoggedIn/store/skins",
-        children: [
-          {
-            path: "/LoggedIn/store/skins",
-            name: "StoreSkins",
-            component: StoreSkins
-          },
-          {
-            path: "/LoggedIn/store/icons",
-            name: "StoreIcons",
-            component: StoreIcons
-          },
-          {
-            path: "/LoggedIn/store/boosts",
-            name: "StoreBoosts",
-            component: StoreBoosts
-          },
-          {
-            path: "/LoggedIn/store/launcher",
-            name: "StoreLauncher",
-            component: StoreLauncher
-          },
-          {
-            path: "/LoggedIn/store/account",
-            name: "StoreAccount",
-            component: StoreAccount
-          }
-        ]
-      },
-      {
-        path: "/LoggedIn/collection",
-        name: "Collection",
-        component: Collection,
-        redirect: "/LoggedIn/collection/champions",
-        children: [
-          {
-            path: "/LoggedIn/collection/champions",
-            name: "Champions",
-            component: CollectionChampions
-          }
-        ]
-      }
-    ]
-  },
-  {
-    path: "*",
-    name: "Error",
-    component: Error
-  },
-  {
-    path: "/bugreport",
-    name: "BugReport",
-    component: Bugreport
-  }
+    },
+    {
+        path: "*",
+        name: "Error",
+        component: Error
+    },
+    {
+        path: "/bugreport",
+        name: "BugReport",
+        component: Bugreport
+    }
 ];
 
 const router = new VueRouter({
-  routes
+    routes
 });
 
 export default router;

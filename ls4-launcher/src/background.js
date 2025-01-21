@@ -12,44 +12,6 @@ env.config();
 
 const isDevelopment = process.env.NODE_ENV !== "production";
 
-// UPDATER
-const updater = require("electron-updater");
-const autoUpdater = updater.autoUpdater;
-let updateBlocked = true;
-
-autoUpdater.autoDownload = false;
-
-autoUpdater.setFeedURL({
-    provider: "generic",
-    channel: "latest",
-    url: "https://google.com" //"https://git.jandev.de/api/v4/projects/102/jobs/artifacts/master/raw/dist_electron?job=Build Production"
-});
-
-autoUpdater.on("checking-for-update", function () {
-    updateBlocked = true;
-    win.webContents.send("update", "Checking for update...");
-});
-
-autoUpdater.on("update-not-available", function () {
-    updateBlocked = false;
-    win.webContents.send("update", "No Update available.");
-});
-
-autoUpdater.on("update-available", function () {
-    win.webContents.send("update", "Downloading update...");
-});
-
-autoUpdater.on("update-downloaded", function () {
-    win.webContents.send("update", "Restarting...");
-    setTimeout(function () {
-        autoUpdater.quitAndInstall();
-    }, 5000);
-});
-
-autoUpdater.on("error", function (error) {
-    win.webContents.send("update", "Update error: " + error);
-});
-
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win;
@@ -91,8 +53,6 @@ function createWindow() {
         // createProtocol("app");
         // Load the index.html when not in development
         win.loadURL(`file://${__dirname}/index.html`);
-
-        //autoUpdater.checkForUpdatesAndNotify();
     }
 
     win.on("closed", () => {
@@ -182,12 +142,6 @@ ipcMain.handle("openFileDialog", async () => {
 
 ipcMain.handle("getStatic", async () => {
     return join(__static, "static");
-});
-
-ipcMain.handle("checkForUpdate", async () => {
-    if (!updateBlocked) {
-        autoUpdater.checkForUpdatesAndNotify();
-    }
 });
 
 ipcMain.on("translate_missing_langkeys", async (event, data) => {
