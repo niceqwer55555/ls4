@@ -1,0 +1,54 @@
+{
+  "name": "ls4-launcher",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --openssl-legacy-provider",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build --x64 --win",
+    "electron:pack": "vue-cli-service electron:build --dir",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "author": {
+    "name": "LeagueS4",
+    "email": "business@jandev.de",
+    "url": "https://leagues4.com"
+  },
+  "description": "LeagueS4 Launcher",
+  "bugs": {
+    "url": "hhttps://git.jandev.de/leagues4/ls4-launcher/"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@stomp/stompjs": "^6.1.0",
+    "axios": "^1.7.2",
+    "caniuse-lite": "^1.0.30001643",
+    "core-js": "^3.13.1",
+    "css-loader": "^5.2.6",
+    "electron-updater": "^6.3.0",
+    "moment": "^2.29.1",
+    "node-sass": "^9.0.0",
+    "ping": "^0.4.1",
+    "uuidv4": "^6.2.10",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "electron": "^31.2.1",
+    "electron-builder": "^24.13.3",
+    "electron-devtools-installer": "^3.2.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^10.2.0",
+    "vue-cli-plugin-electron-builder": "^2.1.1",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
