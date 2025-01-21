@@ -1,6 +1,9 @@
 import Vuex from "vuex";
 import Vue from "vue";
 import path from "path";
+import env from "dotenv";
+
+env.config();
 
 // 3RD PARTY
 import { ipcRenderer } from "electron";
@@ -55,20 +58,20 @@ export default new Vuex.Store({
                 host:
                     process.env.VUE_APP_CDN !== "undefined" &&
                         process.env.VUE_APP_CDN !== undefined
-                        ? `https://${process.env.VUE_APP_CDN}`
-                        : "https://127.0.0.1:3000/cdn", //https://cdn.leagues4.com
+                        ? `http://${process.env.VUE_APP_CDN}`
+                        : "http://localhost:3000/cdn/", //https://cdn.leagues4.com
                 port:
                     process.env.VUE_APP_CDN_PORT !== "undefined" &&
                         process.env.VUE_APP_CDN_PORT !== undefined
-                        ? 80 //process.env.VUE_APP_CDN_PORT
+                        ? 3000 //process.env.VUE_APP_CDN_PORT
                         : 443
             },
             api: {
                 host:
                     process.env.VUE_APP_API !== "undefined" &&
                         process.env.VUE_APP_API !== undefined
-                        ? `https://${process.env.VUE_APP_API}`
-                        : "https://127.0.0.1:8080", //https://api.leagues4.com
+                        ? `http://${process.env.VUE_APP_API}`
+                        : "http://127.0.0.1:8080", //https://api.leagues4.com
                 port:
                     process.env.VUE_APP_API_PORT !== "undefined" &&
                         process.env.VUE_APP_API_PORT !== undefined

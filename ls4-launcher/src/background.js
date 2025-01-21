@@ -6,20 +6,23 @@ import installExtension, { VUEJS_DEVTOOLS } from "electron-devtools-installer";
 import ping from "ping";
 import { join } from "path";
 import { writeFileSync } from "fs";
+import env from "dotenv";
+
+env.config();
 
 const isDevelopment = process.env.NODE_ENV !== "production";
 
 // UPDATER
 const updater = require("electron-updater");
 const autoUpdater = updater.autoUpdater;
-let updateBlocked = false;
+let updateBlocked = true;
 
-autoUpdater.autoDownload = true;
+autoUpdater.autoDownload = false;
 
 autoUpdater.setFeedURL({
     provider: "generic",
     channel: "latest",
-    url: "#" //"https://git.jandev.de/api/v4/projects/102/jobs/artifacts/master/raw/dist_electron?job=Build Production"
+    url: "https://google.com" //"https://git.jandev.de/api/v4/projects/102/jobs/artifacts/master/raw/dist_electron?job=Build Production"
 });
 
 autoUpdater.on("checking-for-update", function () {
@@ -53,7 +56,7 @@ let win;
 
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([
-    { scheme: "app", privileges: { secure: true, standard: true } }
+    { scheme: "app", privileges: { secure: false, standard: true } }
 ]);
 
 var enableDevTools = !app.isPackaged;
@@ -89,7 +92,7 @@ function createWindow() {
         // Load the index.html when not in development
         win.loadURL(`file://${__dirname}/index.html`);
 
-        autoUpdater.checkForUpdatesAndNotify();
+        //autoUpdater.checkForUpdatesAndNotify();
     }
 
     win.on("closed", () => {

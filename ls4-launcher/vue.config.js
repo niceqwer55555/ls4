@@ -6,21 +6,21 @@ process.env.VUE_APP_API = process.env.APP_API;
 process.env.VUE_APP_API_PORT = process.env.APP_API_PORT;
 
 module.exports = {
-  pluginOptions: {
-    electronBuilder: {
-      nodeIntegration: true,
-      builderOptions: {
-        appId: "com.leagues4.launcher",
-        productName: "LeagueS4 Launcher",
-        copyright: "Copyright (C) 2020  LeagueS4",
-        publish: [
-          {
-            provider: "generic",
-            url: "https://git.jandev.de"
-          }
-        ]
-      },
-      customFileProtocol: "./"
+    pluginOptions: {
+        electronBuilder: {
+            nodeIntegration: true,
+            builderOptions: {
+                appId: "com.leagues4.launcher",
+                productName: "LeagueS4 Launcher",
+                copyright: "Copyright (C) 2020  LeagueS4",
+                publish: [
+                    {
+                        provider: "generic",
+                        url: "https://git.jandev.de"
+                    }
+                ]
+            },
+            customFileProtocol: "./"
+        }
     }
-  }
 };
