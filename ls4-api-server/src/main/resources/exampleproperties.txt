@@ -8,11 +8,16 @@ logging.level.root=info
 logging.file.name=logs/ls4-api-server.log
 # Database settings (Please be aware that ddl-auto can permanently remove data from the database. Use 'none' if you don't want that risk.)
 spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url=jdbc:mariadb://<YOUR_DATABASE_IP>:<YOUR_DATABASE_PORT/<YOUR_DATABASE_NAME>
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDB103Dialect
+#spring.datasource.url=jdbc:mariadb://<YOUR_DATABASE_IP>:<YOUR_DATABASE_PORT/<YOUR_DATABASE_NAME>
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDB103Dialect
+spring.datasource.url=jdbc:sqlite:ls4.db
+spring.datasource.driver-class-name=org.sqlite.JDBC
+spring.jpa.database-platform=org.hibernate.dialect.SQLiteDialect
 spring.datasource.username=<YOUR_DATABASE_USERNAME>
 spring.datasource.password=<YOUR_DATABASE_PASSWORD>
 spring.jpa.open-in-view=false
+# Optional: Disable the Hibernate second-level cache
+#spring.jpa.properties.hibernate.cache.use_second_level_cache=false
 # JWT settings
 jwt.secret=<YOUR_SECRET> (12 Characters, Alphanumeric)
 jwt.validity=604800
