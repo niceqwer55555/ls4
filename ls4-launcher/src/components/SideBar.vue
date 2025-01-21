@@ -1,26 +1,26 @@
 <template>
-  <div class="sidebar-holder" v-show="component != 'hidden'">
-    <div class="accents">
-      <button class="listBtn">
-        <img src="@/assets/icons/bars-social.svg" alt="sidebarList" />
-      </button>
-      <button class="minimize" @click="component == 'hidden'">
-        <img src="@/assets/icons/minimize_social.svg" alt="sidebarMinimize" />
-      </button>
+    <div class="sidebar-holder" v-show="component != 'hidden'">
+        <div class="accents">
+            <button class="listBtn">
+                <img src="@/assets/icons/bars-social.svg" alt="sidebarList" />
+            </button>
+            <button class="minimize" @click="component == 'hidden'">
+                <img src="@/assets/icons/minimize_social.svg" alt="sidebarMinimize" />
+            </button>
+        </div>
+        <div class="head">
+            <Profile />
+        </div>
+        <div class="content" v-if="component == 'friends'">
+            <FriendList :lobbyState="lobbyState" />
+        </div>
+        <div class="content" v-else-if="component == 'chatrooms'">
+            <h2>no chat rooms sry</h2>
+        </div>
+        <div class="content" v-else-if="component == 'notifications'">
+            <NotificationList :lobbyState="lobbyState" />
+        </div>
     </div>
-    <div class="head">
-      <Profile />
-    </div>
-    <div class="content" v-if="component == 'friends'">
-      <FriendList :lobbyState="lobbyState" />
-    </div>
-    <div class="content" v-else-if="component == 'chatrooms'">
-      <h2>no chat rooms sry</h2>
-    </div>
-    <div class="content" v-else-if="component == 'notifications'">
-      <NotificationList :lobbyState="lobbyState" />
-    </div>
-  </div>
 </template>
 
 <script>
@@ -30,86 +30,86 @@ import NotificationList from "@/components/SideBar/NotificationList.vue";
 import { mapState } from "vuex";
 
 export default {
-  components: {
-    Profile,
-    FriendList,
-    NotificationList
-  },
-  data() {
-    return {
-      lobbyState: false
-    };
-  },
-  computed: mapState({
-    component: state => {
-      return state.sidebarComponent;
+    components: {
+        Profile,
+        FriendList,
+        NotificationList
+    },
+    data() {
+        return {
+            lobbyState: false
+        };
+    },
+    computed: mapState({
+        component: state => {
+            return state.sidebarComponent;
+        }
+    }),
+    methods: {
+        showFriendRequests() {
+            this.$modal.friendrequests.show();
+        }
     }
-  }),
-  methods: {
-    showFriendRequests() {
-      this.$modal.friendrequests.show();
-    }
-  }
 };
 </script>
 
 <style lang="scss" scoped>
 .sidebar-holder {
-  display: flex;
-  background-color: #050a10;
-  position: relative;
-  flex-direction: column;
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(39, 73, 111, 80%) 0%,
-  //   rgba(12, 39, 72, 0.8) 50%,
-  //   rgba(39, 73, 111, 80%) 100%
-  // );
-  background-image: url("../assets/images/social_scaffold.png");
-  background-size: 100% 100%;
-  width: 19.8%;
-  height: 99.5%;
-  border-radius: 5px;
-  z-index: 2;
+    display: flex;
+    background-color: #050a10;
+    position: relative;
+    flex-direction: column;
+    // background: linear-gradient(
+    //   180deg,
+    //   rgba(39, 73, 111, 80%) 0%,
+    //   rgba(12, 39, 72, 0.8) 50%,
+    //   rgba(39, 73, 111, 80%) 100%
+    // );
+    background-image: url("../assets/images/social_scaffold.png");
+    background-size: 100% 100%;
+    width: 19.8%;
+    height: 99.5%;
+    border-radius: 5px;
+    z-index: 2;
 }
 
 .sidebar-holder .accents {
-  position: absolute;
-  top: 2px;
-  right: 0px;
-  width: 69px;
-  height: 30px;
-  justify-content: space-around;
-  padding: 0 1px;
-  display: flex;
-  z-index: 5 !important;
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    width: 69px;
+    height: 30px;
+    justify-content: space-around;
+    padding: 0 1px;
+    display: flex;
+    z-index: 5 !important;
 }
 
-.sidebar-holder .accents > button {
-  width: 32px;
-  outline: none;
-  background-size: 100% 100%;
-  border: none;
-  height: 29px;
-  border-radius: 5px;
-  background-color: transparent;
-  background-image: url("../assets/images/social-button-bg.png");
-  transition: filter ease-in-out 200ms;
-  cursor: pointer;
+.sidebar-holder .accents>button {
+    width: 32px;
+    outline: none;
+    background-size: 100% 100%;
+    border: none;
+    height: 29px;
+    border-radius: 5px;
+    background-color: transparent;
+    background-image: url("../assets/images/social-button-bg.png");
+    transition: filter ease-in-out 200ms;
+    cursor: pointer;
 }
 
-.sidebar-holder .accents > button:hover {
-  filter: brightness(1.2);
+.sidebar-holder .accents>button:hover {
+    filter: brightness(1.2);
 }
 
 .sidebar-holder .head {
-  width: 100%;
-  height: 90px;
+    width: 100%;
+    height: 90px;
 }
 
 .sidebar-holder .content {
-  height: calc(100% - 85px);
-  padding: 5px;
+    height: calc(100% - 85px);
+    padding: 5px;
 }
 
 // .sidebar-holder .content .spacer {
@@ -175,5 +175,4 @@ export default {
 //   100% {
 //     filter: brightness(0.7);
 //   }
-// }
-</style>
+// }</style>
