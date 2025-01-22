@@ -56,7 +56,7 @@ export default new Vuex.Store({
           process.env.VUE_APP_CDN !== "undefined" &&
           process.env.VUE_APP_CDN !== undefined
             ? `https://${process.env.VUE_APP_CDN}`
-            : "https://5richsoft.com/assets/LS4", //https://cdn.leagues4.com
+            : "http://localhost:8081/cdn", //https://cdn.leagues4.com
         port:
           process.env.VUE_APP_CDN_PORT !== "undefined" &&
           process.env.VUE_APP_CDN_PORT !== undefined
@@ -68,7 +68,7 @@ export default new Vuex.Store({
           process.env.VUE_APP_API !== "undefined" &&
           process.env.VUE_APP_API !== undefined
             ? `https://${process.env.VUE_APP_API}`
-            : "https://127.0.0.1:8080", //https://api.leagues4.com
+            : "http://127.0.0.1:8080", //https://api.leagues4.com
         port:
           process.env.VUE_APP_API_PORT !== "undefined" &&
           process.env.VUE_APP_API_PORT !== undefined

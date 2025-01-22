@@ -241,8 +241,8 @@ export default {
   data() {
     return {
       clientpath: "",
-      cdnserverhost: "cdn.leagues4.com",
-      apiserverhost: "api.leagues4.com",
+      cdnserverhost: "127.0.0.1:8081/cdn", //"cdn.leagues4.com",
+      apiserverhost: "127.0.0.1:8080", //"api.leagues4.com",
       langcode: "en_US",
       logindata: {
         username: "",
@@ -324,10 +324,10 @@ export default {
       ipcRenderer.invoke("openFileDialog").then(result => {
         if (result) {
           if (result.includes("League of Legends.exe")) {
-            that.clientpath = result;
-          } else {
-            that.clientpath =
-              "League of Legends executable invalid. (Download: https://github.com/LeagueSandbox/GameServer#manual-setup-windowsmac)";
+            that.clientpath = result; //G:\Games\LoL-420\RADS\solutions\lol_game_client_sln\releases\0.0.1.68\deploy\League of Legends.exe
+          }
+          else {
+            that.clientpath = "League of Legends executable invalid. (Download: https://github.com/LeagueSandbox/GameServer#manual-setup-windowsmac)";
           }
         }
       });

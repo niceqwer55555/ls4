@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 
 // Define the port to run the server on
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8081;
 
 // Serve static files from the 'public' directory
 app.use('/cdn', express.static(path.join(__dirname, 'public')));
