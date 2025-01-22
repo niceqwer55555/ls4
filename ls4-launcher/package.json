@@ -1,17 +1,7 @@
 {
   "name": "ls4-launcher",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve --openssl-legacy-provider",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "electron:build": "vue-cli-service electron:build --x64 --win",
-    "electron:pack": "vue-cli-service electron:build --dir",
-    "electron:serve": "vue-cli-service electron:serve",
-    "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps"
-  },
   "author": {
     "name": "LeagueS4",
     "email": "business@jandev.de",
@@ -21,43 +11,69 @@
   "bugs": {
     "url": "hhttps://git.jandev.de/leagues4/ls4-launcher/"
   },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build --x64 --win",
+    "electron:pack": "vue-cli-service electron:build --dir",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
   "main": "background.js",
   "dependencies": {
-    "@stomp/stompjs": "^7.0.0",
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14",
+	  "@stomp/stompjs": "^6.1.0",
     "axios": "^1.7.2",
     "caniuse-lite": "^1.0.30001643",
-    "core-js": "^3.13.1",
-    "css-loader": "^7.1.2",
-    "dotenv": "^16.4.7",
+    "css-loader": "^5.2.6",
     "electron-updater": "^6.3.0",
-    "fs": "^0.0.1-security",
     "moment": "^2.29.1",
     "node-sass": "^9.0.0",
-    "path": "^0.12.7",
     "ping": "^0.4.1",
     "uuidv4": "^6.2.10",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0",
-    "vuex": "^4.1.0"
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
     "@vue/cli-plugin-vuex": "^5.0.8",
-    "@vue/cli-service": "^5.0.8",
-    "babel-plugin-module-resolver": "^5.0.2",
-    "crypto-browserify": "^3.12.1",
-    "electron": "^34.0.0",
-    "electron-builder": "^25.1.8",
-    "electron-devtools-installer": "^4.0.0",
-    "lint-staged": "^15.4.1",
-    "os-browserify": "^0.3.0",
-    "path-browserify": "^1.0.1",
-    "prettier": "^3.4.2",
-    "sass-loader": "^16.0.4",
-    "stream-browserify": "^3.0.0",
-    "util": "^0.12.5",
-    "vue-cli-plugin-electron-builder": "^2.1.1",
-    "vue-template-compiler": "^2.6.12"
-  }
+    "electron": "^13.0.0",
+    "electron-devtools-installer": "^3.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+	  "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^10.2.0",
+    "vue-cli-plugin-electron-builder": "~2.1.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
