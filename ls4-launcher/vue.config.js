@@ -22,5 +22,16 @@ module.exports = {
             },
             customFileProtocol: "./"
         }
+    },
+    configureWebpack: {
+        resolve: {
+            fallback: {
+                "path": require.resolve("path-browserify"),
+                "os": require.resolve("os-browserify/browser"),
+                "crypto": require.resolve("crypto-browserify"),
+                "fs": false,
+                "child_process": false,
+            }
+        }
     }
 };

@@ -1,9 +1,6 @@
 import Vuex from "vuex";
 import Vue from "vue";
 import path from "path";
-import env from "dotenv";
-
-env.config();
 
 // 3RD PARTY
 import { ipcRenderer } from "electron";

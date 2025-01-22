@@ -1,5 +1,5 @@
 import { readdirSync, readFileSync } from "fs";
-import { join } from "path";
+import path from "path-browserify"; // Use path-browserify
 import { ipcRenderer } from "electron";
 
 // Somehow this is undefined
@@ -7,7 +7,7 @@ const __STATIC = ipcRenderer.invoke("getStatic").then(result => {
     return result;
 });
 
-// We need a vue instance to handle reactivity
+// We need a Vue instance to handle reactivity
 var vm = null;
 
 const VueTranslate = {
@@ -95,7 +95,7 @@ const VueTranslate = {
                         }
                     },
 
-                    // Load static lanugages safely
+                    // Load static languages safely
                     safeLoadLanguages(path, defaultLang) {
                         if (!this.loadedOnce) {
                             this.loadLanguages(path, defaultLang);
@@ -112,7 +112,7 @@ const VueTranslate = {
 
                         if (!langFolderPath) {
                             __STATIC.then(result => {
-                                langFolderPath = join(result, "lang");
+                                langFolderPath = path.join(result, "lang");
                                 this.loadLanguagesInternal(
                                     readdirSync(langFolderPath),
                                     langFolderPath,
@@ -133,7 +133,7 @@ const VueTranslate = {
 
                         langDir.forEach(file => {
                             const fileContents = readFileSync(
-                                join(langFolderPath, file),
+                                path.join(langFolderPath, file),
                                 "utf-8"
                             );
                             try {
