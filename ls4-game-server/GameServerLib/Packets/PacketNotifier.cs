@@ -771,6 +771,20 @@ namespace PacketDefinitions420
             _packetHandlerManager.SendPacket(userId, avatar.GetBytes(), Channel.CHL_S2C);
         }
 
+        public void NotifyShield(AttackableUnit unit, float shieldAmount, bool isPhysical, bool isMagical, bool stopShieldFade)
+        {
+            var shieldPacket = new ModifyShield
+            {
+                SenderNetID = unit.NetId,
+                Amount = shieldAmount,
+                Physical = isPhysical,
+                Magical = isMagical,
+                StopShieldFade = stopShieldFade
+            };
+
+            _packetHandlerManager.BroadcastPacket(shieldPacket.GetBytes(), Channel.CHL_S2C);
+        }
+
         /// <summary>
         /// Sends a packet to all players detailing that the specified  unit is starting their next auto attack.
         /// </summary>

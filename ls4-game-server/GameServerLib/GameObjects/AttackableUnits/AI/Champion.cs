@@ -19,6 +19,7 @@ namespace LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI
     {
         private float _championHitFlagTimer;
         private static ILog _logger = LoggerProvider.GetLogger();
+        private float _currentShield = 0;
         /// <summary>
         /// Player number ordered by the config file.
         /// </summary>
@@ -80,6 +81,17 @@ namespace LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI
             if (clientInfo.PlayerId == -1)
             {
                 IsBot = true;
+            }
+        }
+
+        public void ApplyShield(AttackableUnit unit, float shieldAmount, bool isUnique, bool isMagical, bool isPhysical)
+        {
+            var shieldDelta = shieldAmount - _currentShield;
+            if (shieldDelta != 0)
+            {
+                _currentShield = shieldAmount;
+                unit.Stats.CurrentShield += shieldDelta;
+                _game.PacketNotifier.NotifyShield(unit, shieldAmount, isUnique, isMagical, isPhysical);
             }
         }
 
