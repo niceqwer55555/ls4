@@ -771,6 +771,15 @@ namespace PacketDefinitions420
             _packetHandlerManager.SendPacket(userId, avatar.GetBytes(), Channel.CHL_S2C);
         }
 
+        /// <summary>
+        /// Sends a packet to all players detailing the shield values of a specified unit.
+        /// This method is used to notify clients about changes to shield values on a specific unit.
+        /// </summary>
+        /// <param name="unit">The unit that the shield is being applied to.</param>
+        /// <param name="shieldAmount">The amount of shield being applied. This can be a positive value to add a shield or a negative value to remove a shield.</param>
+        /// <param name="isPhysical">Indicates whether the shield is physical.</param>
+        /// <param name="isMagical">Indicates whether the shield is magical.</param>
+        /// <param name="stopShieldFade">Indicates whether the shield should stay static or fade over time.</param>
         public void NotifyShield(AttackableUnit unit, float shieldAmount, bool isPhysical, bool isMagical, bool stopShieldFade)
         {
             var shieldPacket = new ModifyShield
@@ -786,7 +795,7 @@ namespace PacketDefinitions420
         }
 
         /// <summary>
-        /// Sends a packet to all players detailing that the specified  unit is starting their next auto attack.
+        /// Sends a packet to all players detailing that the specified unit is starting their next auto attack.
         /// </summary>
         /// <param name="attacker">Unit that is attacking.</param>
         /// <param name="target">AttackableUnit being attacked.</param>
