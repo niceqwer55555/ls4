@@ -1,5 +1,5 @@
 
-cd ls4-lobby-server
-node server server.js
+cd ls4-cdn-server
+node index.js
 
 pause
