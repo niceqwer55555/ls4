@@ -1,0 +1,3 @@
+provider: generic
+url: https://git.jandev.de
+updaterCacheDirName: ls4-launcher-updater
