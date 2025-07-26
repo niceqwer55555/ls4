@@ -13,9 +13,8 @@ namespace Spells
     {
         public SpellScriptMetadata ScriptMetadata { get; private set; } = new SpellScriptMetadata()
         {
-            TriggersSpellCasts = true,
-            IsDamagingSpell = true,
-            MissileParameters = new MissileParameters { Type = MissileType.Target }
+            TriggersSpellCasts = true
+            // TODO
         };
 
         public void OnSpellPostCast(Spell spell)
@@ -25,11 +24,10 @@ namespace Spells
 
         public void ApplyEffects(ObjAIBase owner, AttackableUnit target, Spell spell, SpellMissile missile)
         {
-            //var owner = spell.CastInfo.Owner as Champion;
             var ap = owner.Stats.AbilityPower.Total * 0.8f;
-            var damage = 35 + (spell.CastInfo.SpellLevel * 45) + ap;
+            var damage = 35 + spell.CastInfo.SpellLevel * 45 + ap;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
-            var time = 1.25f + (0.25f * spell.CastInfo.SpellLevel);
+            var time = 1.25f + 0.25f * spell.CastInfo.SpellLevel;
             AddBuff("Blind", time, 1, spell, target, owner);
             missile.SetToRemove();
         }

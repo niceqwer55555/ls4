@@ -1,4 +1,7 @@
-﻿using GameServerCore.Enums;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using GameServerCore.Enums;
 using LeagueSandbox.GameServer.Content;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 
@@ -79,7 +82,6 @@ namespace LeagueSandbox.GameServer.GameObjects.StatsNS
 
         public bool IsGeneratingGold { get; set; } // Used to determine if the Stats update should include generating gold. Changed in Champion.h
         public float SpellCostReduction { get; set; } //URF Buff/Lissandra's passive
-        public float CurrentShield { get; internal set; }
 
         public Stats()
         {

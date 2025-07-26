@@ -13,6 +13,8 @@
 //plainText = b.Decrypt_CBC(cipherText);
 //MessageBox.Show(plainText);
 
+using System;
+
 namespace PacketDefinitions420
 {
     public class BlowFish
@@ -136,7 +138,7 @@ namespace PacketDefinitions420
                 }
             }
 
-            if (d != 0)
+            if(d != 0)
             {
                 // Extra bytes are simply assigned as is.
                 Buffer.BlockCopy(text, n, result, n, d);

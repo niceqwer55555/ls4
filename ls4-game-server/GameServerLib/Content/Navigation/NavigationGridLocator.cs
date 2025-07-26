@@ -1,4 +1,7 @@
-﻿namespace LeagueSandbox.GameServer.Content.Navigation
+﻿using System;
+using System.IO;
+
+namespace LeagueSandbox.GameServer.Content.Navigation
 {
     public struct NavigationGridLocator
     {

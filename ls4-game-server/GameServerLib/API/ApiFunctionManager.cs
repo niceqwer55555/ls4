@@ -1,4 +1,7 @@
-﻿using System.Numerics;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Numerics;
 using GameServerCore.Enums;
 using GameServerCore.Scripting.CSharp;
 using GameServerLib.GameObjects.AttackableUnits;
@@ -1163,24 +1166,6 @@ namespace LeagueSandbox.GameServer.API
             }
 
             return GlobalData.ObjAIBaseVariables.DefaultPetReturnRadius;
-        }
-
-        /// <summary>
-        /// Add a marker for assist to the target
-        /// </summary>
-        /// <param name="target"></param>
-        /// <param name="source"></param>
-        /// <param name="duration">Seconds</param>
-        public static void ApplyAssistMarker(AttackableUnit target, AttackableUnit source, float duration)
-        {
-            //Check if there are edge cases for non-champions to apply assists
-            if (target is not ObjAIBase objTarget || source is not ObjAIBase objSource)
-            {
-                _logger.Warn("Can't Apply AssistMarker! (Target or Source is null or not ObjAIBase!)");
-                return;
-            }
-
-            objTarget.AddAssistMarker(objSource, duration);
         }
     }
 }

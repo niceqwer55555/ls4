@@ -1,5 +1,7 @@
+using System.Collections.Generic;
 using System.Numerics;
 using GameServerCore.Enums;
+using LeagueSandbox.GameServer.Content;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace GameServerCore.Domain

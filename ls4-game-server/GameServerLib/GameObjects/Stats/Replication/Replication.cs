@@ -1,4 +1,6 @@
-﻿using LeaguePackets.Game.Common;
+﻿using System;
+using System.Collections.Generic;
+using LeaguePackets.Game.Common;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 
 namespace LeagueSandbox.GameServer.GameObjects.StatsNS
@@ -83,8 +85,7 @@ namespace LeagueSandbox.GameServer.GameObjects.StatsNS
 
         public ReplicationData GetData(bool partial = true)
         {
-            var data = new ReplicationData()
-            {
+            var data = new ReplicationData(){
                 UnitNetID = Owner.NetId
             };
 
@@ -124,7 +125,7 @@ namespace LeagueSandbox.GameServer.GameObjects.StatsNS
                     }
                 }
 
-                if (bytes.Count > 0)
+                if(bytes.Count > 0)
                 {
                     data.Data[primaryId] = new Tuple<uint, byte[]>(secondaryIdArray, bytes.ToArray());
                 }

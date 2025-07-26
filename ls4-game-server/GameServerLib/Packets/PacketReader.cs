@@ -4,6 +4,7 @@ using LeaguePackets;
 using LeaguePackets.Game;
 using LeaguePackets.LoadScreen;
 using GameServerCore.Enums;
+using System;
 using static PacketDefinitions420.PacketExtensions;
 
 namespace PacketDefinitions420
@@ -163,7 +164,7 @@ namespace PacketDefinitions420
         {
             var rq = new NPC_IssueOrderReq();
             rq.Read(data);
-            if (rq.MovementData.Waypoints == null)
+            if(rq.MovementData.Waypoints == null)
             {
                 return null;
             }

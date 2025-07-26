@@ -1,4 +1,6 @@
-﻿namespace LeagueSandbox.GameServer.Attributes
+﻿using System;
+
+namespace LeagueSandbox.GameServer.Attributes
 {
     /// <summary>
     /// Disables a PacketHandler

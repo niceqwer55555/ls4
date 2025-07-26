@@ -1,4 +1,6 @@
-﻿namespace LeagueSandbox.GameServer.Inventory
+﻿using System.Collections.Generic;
+
+namespace LeagueSandbox.GameServer.Inventory
 {
     public class RuneCollection
     {

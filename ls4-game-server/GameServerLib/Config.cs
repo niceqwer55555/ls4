@@ -1,8 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Numerics;
 using System.Reflection;
 using GameServerCore.Domain;
 using GameServerCore.Enums;
+using LeagueSandbox.GameServer;
 using LeagueSandbox.GameServer.Content;
 using LeagueSandbox.GameServer.Inventory;
 using LeagueSandbox.GameServer.Logging;
@@ -18,14 +22,13 @@ namespace LeagueSandbox.GameServer
     /// </summary>
     public class Config
     {
-        public const string VERSION_STRING = "Version 4.20.0.315 [PUBLIC]";
-
         public List<PlayerConfig> Players { get; private set; }
         public GameConfig GameConfig { get; private set; }
         public ContentManager ContentManager { get; private set; }
         public FeatureFlags GameFeatures { get; private set; }
+        public const string VERSION_STRING = "Version 4.20.0.315 [PUBLIC]";
         public static readonly Version VERSION = new Version(4, 20, 0, 315);
-        internal string[] AssemblyNames { get; private set; } = [];
+
         public bool ChatCheatsEnabled { get; private set; }
         public string ContentPath { get; private set; }
         public bool IsDamageTextGlobal { get; private set; }
@@ -36,21 +39,21 @@ namespace LeagueSandbox.GameServer
         {
         }
 
-        public static Config LoadFromJson(string json)
+        public static Config LoadFromJson(Game game, string json)
         {
             var result = new Config();
-            result.LoadConfig(json);
+            result.LoadConfig(game, json);
             return result;
         }
 
-        public static Config LoadFromFile(string path)
+        public static Config LoadFromFile(Game game, string path)
         {
             var result = new Config();
-            result.LoadConfig(File.ReadAllText(path));
+            result.LoadConfig(game, File.ReadAllText(path));
             return result;
         }
 
-        private void LoadConfig(string json)
+        private void LoadConfig(Game game, string json)
         {
             var data = JObject.Parse(json);
 
@@ -89,13 +92,13 @@ namespace LeagueSandbox.GameServer
             }
 
             ForcedStart = (float)(data.SelectToken("forcedStart") ?? 0) * 1000;
-            AssemblyNames = gameInfo?.SelectToken("scriptAssemblies")?.Values<string>().ToArray() as string[] ?? [];
         }
 
         public void LoadContent(Game game)
         {
             // Load data package
-            ContentManager = new(game);
+            ContentManager = ContentManager.LoadDataPackage(game, GameConfig.DataPackage, ContentPath);
+            TalentContentCollection.Init(ContentManager);
             foreach (var player in Players)
             {
                 player.LoadTalentsAndRunes();
@@ -147,17 +150,39 @@ namespace LeagueSandbox.GameServer
 
         public Dictionary<TeamId, Dictionary<int, Dictionary<int, Vector2>>> GetMapSpawns()
         {
-            //Temp Hack
-            Dictionary<TeamId, Dictionary<int, Dictionary<int, Vector2>>> toReturn = new()
+            Dictionary<TeamId, Dictionary<int, Dictionary<int, Vector2>>> toReturn = new Dictionary<TeamId, Dictionary<int, Dictionary<int, Vector2>>>();
+            foreach (var rawInfo in ContentManager.GetMapSpawns(GameConfig.Map))
             {
-                [TeamId.TEAM_BLUE] = new()
+                var team = TeamId.TEAM_BLUE;
+                if (rawInfo.Key.ToLower().Equals("purple"))
                 {
-                    [1] = new()
+                    team = TeamId.TEAM_PURPLE;
+                }
+
+                for (int i = 0; i < rawInfo.Value.Count; i++)
+                {
+                    for (int j = 0; j < rawInfo.Value[i].Count(); j++)
                     {
-                        [1] = new(5000, 5000)
+                        if (toReturn.ContainsKey(team))
+                        {
+                            if (toReturn[team].ContainsKey(i + 1))
+                            {
+                                toReturn[team][i + 1].Add(j + 1, new Vector2((int)((JArray)rawInfo.Value[i][j])[0], (int)((JArray)rawInfo.Value[i][j])[1]));
+                            }
+                            else
+                            {
+                                toReturn[team].Add(rawInfo.Value[i].Count(), new Dictionary<int, Vector2>{
+                                    { j + 1, new Vector2((int)((JArray)rawInfo.Value[i][j])[0], (int)((JArray)rawInfo.Value[i][j])[1]) } });
+                            }
+                        }
+                        else
+                        {
+                            toReturn.Add(team, new Dictionary<int, Dictionary<int, Vector2>> { { rawInfo.Value[i].Count(), new Dictionary<int, Vector2> {
+                                { j + 1, new Vector2((int)((JArray)rawInfo.Value[i][j])[0], (int)((JArray)rawInfo.Value[i][j])[1]) } } } });
+                        }
                     }
                 }
-            };
+            }
             return toReturn;
         }
     }
@@ -251,7 +276,7 @@ public class PlayerConfig
         {
             Team = TeamId.TEAM_BLUE;
         }
-
+        
         Skin = (short)playerData.SelectToken("skin");
         Summoner1 = (string)playerData.SelectToken("summoner1");
         Summoner2 = (string)playerData.SelectToken("summoner2");

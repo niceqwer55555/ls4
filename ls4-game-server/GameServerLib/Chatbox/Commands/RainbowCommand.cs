@@ -1,4 +1,7 @@
-﻿using GameServerCore.Content;
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+using GameServerCore.Content;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.Players;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -69,7 +72,7 @@ namespace LeagueSandbox.GameServer.Chatbox.Commands
             color.R = r;
             color.G = g;
             color.B = b;
-            color.A = (byte)(uint)(a * 255.0f);
+            color.A = (byte) (uint)(a*255.0f);
             Game.PacketNotifier.NotifyTint(team, enable, speed, color);
         }
     }

@@ -1,4 +1,9 @@
-﻿namespace LeagueSandbox.GameServer.Content.Navigation
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+
+namespace LeagueSandbox.GameServer.Content.Navigation
 {
     public class NavigationRegionTagTable
     {
@@ -8,7 +13,7 @@
         {
             this.Groups = new NavigationRegionTagTableGroupTag[groupCount];
 
-            for (int i = 0; i < this.Groups.Length; i++)
+            for(int i = 0; i < this.Groups.Length; i++)
             {
                 this.Groups[i] = new NavigationRegionTagTableGroupTag(br);
             }

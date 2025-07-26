@@ -1,3 +1,4 @@
+using System;
 using GameServerCore;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.Scripting.CSharp;
@@ -103,7 +104,7 @@ namespace LeagueSandbox.GameServer.GameObjects
         public void LoadScript()
         {
             ApiEventManager.RemoveAllListenersForOwner(BuffScript);
-            BuffScript = Game.ScriptEngine.CreateObject<IBuffGameScript>("Buffs", Name) ?? new BuffScriptEmpty();
+            BuffScript = CSharpScriptEngine.CreateObjectStatic<IBuffGameScript>("Buffs", Name) ?? new BuffScriptEmpty();
         }
 
         public void ActivateBuff()
@@ -114,7 +115,7 @@ namespace LeagueSandbox.GameServer.GameObjects
             {
                 BuffScript.OnActivate(TargetUnit, this, OriginSpell);
             }
-            catch (Exception e)
+            catch(Exception e)
             {
                 _logger.Error(null, e);
             }
@@ -132,7 +133,7 @@ namespace LeagueSandbox.GameServer.GameObjects
             {
                 BuffScript.OnDeactivate(TargetUnit, this, OriginSpell);
             }
-            catch (Exception e)
+            catch(Exception e)
             {
                 _logger.Error(null, e);
             }
@@ -160,7 +161,7 @@ namespace LeagueSandbox.GameServer.GameObjects
 
         public void SetStatusEffect(StatusFlags flag, bool enabled)
         {
-            if (enabled)
+            if(enabled)
             {
                 StatusEffectsToEnable |= flag;
                 StatusEffectsToDisable &= ~flag;
@@ -213,7 +214,7 @@ namespace LeagueSandbox.GameServer.GameObjects
                     {
                         BuffScript.OnUpdate(diff);
                     }
-                    catch (Exception e)
+                    catch(Exception e)
                     {
                         _logger.Error(null, e);
                     }

@@ -4,6 +4,8 @@ using GameServerCore.Content;
 using GameServerCore.Enums;
 using GameServerCore.NetInfo;
 using LeaguePackets.Game;
+using System;
+using System.Collections.Generic;
 using System.Numerics;
 using PingLoadInfoRequest = GameServerCore.Packets.PacketDefinitions.Requests.PingLoadInfoRequest;
 using ViewRequest = GameServerCore.Packets.PacketDefinitions.Requests.ViewRequest;
@@ -12,6 +14,7 @@ using LeaguePackets.Common;
 using static GameServerCore.Content.HashFunctions;
 using System.Text;
 using Force.Crc32;
+using System.Linq;
 using LeaguePackets;
 using LeaguePackets.LoadScreen;
 using LeaguePackets.Game.Events;
@@ -772,30 +775,7 @@ namespace PacketDefinitions420
         }
 
         /// <summary>
-        /// Sends a packet to all players detailing the shield values of a specified unit.
-        /// This method is used to notify clients about changes to shield values on a specific unit.
-        /// </summary>
-        /// <param name="unit">The unit that the shield is being applied to.</param>
-        /// <param name="shieldAmount">The amount of shield being applied. This can be a positive value to add a shield or a negative value to remove a shield.</param>
-        /// <param name="isPhysical">Indicates whether the shield is physical.</param>
-        /// <param name="isMagical">Indicates whether the shield is magical.</param>
-        /// <param name="stopShieldFade">Indicates whether the shield should stay static or fade over time.</param>
-        public void NotifyShield(AttackableUnit unit, float shieldAmount, bool isPhysical, bool isMagical, bool stopShieldFade)
-        {
-            var shieldPacket = new ModifyShield
-            {
-                SenderNetID = unit.NetId,
-                Amount = shieldAmount,
-                Physical = isPhysical,
-                Magical = isMagical,
-                StopShieldFade = stopShieldFade
-            };
-
-            _packetHandlerManager.BroadcastPacket(shieldPacket.GetBytes(), Channel.CHL_S2C);
-        }
-
-        /// <summary>
-        /// Sends a packet to all players detailing that the specified unit is starting their next auto attack.
+        /// Sends a packet to all players detailing that the specified  unit is starting their next auto attack.
         /// </summary>
         /// <param name="attacker">Unit that is attacking.</param>
         /// <param name="target">AttackableUnit being attacked.</param>

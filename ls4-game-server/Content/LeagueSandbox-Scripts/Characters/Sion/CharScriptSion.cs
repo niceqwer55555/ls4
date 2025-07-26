@@ -1,6 +1,6 @@
 using GameServerCore.Scripting.CSharp;
 using LeagueSandbox.GameServer.API;
-using GameServerLib.GameObjects.AttackableUnits;
+using            GameServerLib.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.SpellNS;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
@@ -13,8 +13,6 @@ namespace CharScripts
         int counter;
         public void OnActivate(ObjAIBase owner, Spell spell = null)
         {
-            AddBuff("Size", 3.0f, 1, spell, owner, owner, true);
-
             ApiEventManager.OnDeath.AddListener(this, owner, OnDeath, true);
             ApiEventManager.OnResurrect.AddListener(this, owner, OnRessurect, false);
             Spell = spell;

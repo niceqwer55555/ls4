@@ -1,4 +1,6 @@
-﻿namespace LeagueSandbox.GameServer.Content.Navigation
+﻿using System.IO;
+
+namespace LeagueSandbox.GameServer.Content.Navigation
 {
     public class NavigationHintNode
     {

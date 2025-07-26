@@ -1,3 +1,4 @@
+using System;
 using LeagueSandbox.GameServer.Content;
 using LeagueSandbox.GameServer.GameObjects.StatsNS;
 
@@ -50,7 +51,7 @@ namespace LeagueSandbox.GameServer.Inventory
         {
             Name = file.Name;
 
-            //ItemId = Convert.ToInt32(file.MetaData["Id"]);
+            ItemId = Convert.ToInt32(file.MetaData["Id"]);
             MaxStacks = file.GetInt("Data", "MaxStack");
             Price = file.GetInt("Data", "Price");
             ItemGroup = file.GetString("Data", "ItemGroup");
@@ -65,10 +66,10 @@ namespace LeagueSandbox.GameServer.Inventory
 
             AbilityPower.FlatBonus = file.GetFloat("Data", "FlatMagicDamageMod");
             AbilityPower.PercentBonus = file.GetFloat("Data", "PercentMagicDamageMod");
-
+            
             Armor.FlatBonus = file.GetFloat("Data", "FlatArmorMod");
             Armor.PercentBonus = file.GetFloat("Data", "PercentArmorMod");
-
+            
             AttackDamage.FlatBonus = file.GetFloat("Data", "FlatPhysicalDamageMod");
             AttackDamage.PercentBonus = file.GetFloat("Data", "PercentPhysicalDamageMod");
             AttackSpeed.FlatBonus = file.GetFloat("Data", "PercentAttackSpeedMod");
@@ -80,20 +81,20 @@ namespace LeagueSandbox.GameServer.Inventory
             HealthPoints.FlatBonus = file.GetFloat("Data", "FlatHPPoolMod");
             HealthPoints.PercentBonus = file.GetFloat("Data", "PercentHPPoolMod");
             HealthRegeneration.PercentBonus = file.GetFloat("Data", "PercentBaseHPRegenMod");
-
+            
             LifeSteal.FlatBonus = file.GetFloat("Data", "PercentLifeStealMod");
-
+            
             ManaPoints.FlatBonus = file.GetFloat("Data", "FlatMPPoolMod");
             ManaPoints.PercentBonus = file.GetFloat("Data", "PercentMPPoolMod");
             ManaRegeneration.PercentBonus = file.GetFloat("Data", "PercentBaseMPRegenMod");
-
+            
             MagicPenetration.FlatBonus = file.GetFloat("Data", "FlatMagicPenetrationMod");
             MagicResist.FlatBonus = file.GetFloat("Data", "FlatSpellBlockMod");
             MagicResist.PercentBonus = file.GetFloat("Data", "PercentSpellBlockMod");
-
+            
             MoveSpeed.FlatBonus = file.GetFloat("Data", "FlatMovementSpeedMod");
             MoveSpeed.PercentBonus = file.GetFloat("Data", "PercentMovementSpeedMod");
-
+            
 
             //itemInfo.SafeGetFloat("Data", "PercentEXPBonus"); // TODO
 

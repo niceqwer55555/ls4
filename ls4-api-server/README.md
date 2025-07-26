@@ -120,7 +120,7 @@ Outgoing:
 ### Testing (in IDE)
 
 * Git clone the project
-* Install Java 11 and IntelliJ
+* Install Java 17 and IntelliJ
 * Get all the plugins for IntelliJ as mentioned in Code Guidelines in Contributing.md
 * Enable annotation processing in IDE settings
 * Configure the dev config
@@ -131,7 +131,7 @@ Outgoing:
 ### Testing (without IDE)
 
 * Download the newest API jar
-* Install Java 11
+* Install Java 17
 * Run the application with VM argument -Dspring.profiles.active=dev
 * The config file will be created in the same directory as the jar file. Configure it and restart.
 * During the first startup spring will create the database structure. Fill the database with the .sql scripts in the

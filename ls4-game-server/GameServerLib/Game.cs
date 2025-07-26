@@ -1,4 +1,5 @@
-﻿using GameServerCore.Packets.Handlers;
+﻿using GameServerCore.Enums;
+using GameServerCore.Packets.Handlers;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.Chatbox;
 using LeagueSandbox.GameServer.Logging;
@@ -8,15 +9,18 @@ using LeagueSandbox.GameServer.Scripting.CSharp;
 using log4net;
 using LeagueSandbox.GameServer.Inventory;
 using PacketDefinitions420;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
+using System.Linq;
 using System.Reflection;
 using Timer = System.Timers.Timer;
 using LeagueSandbox.GameServer.Packets.PacketHandlers;
 using LeagueSandbox.GameServer.Handlers;
 using GameServerCore.Packets.PacketDefinitions;
 using GameServerCore.Packets.PacketDefinitions.Requests;
-using GameServerLib.Handlers;
-using GameServerLib.Scripting;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 
 namespace LeagueSandbox.GameServer
 {
@@ -111,16 +115,15 @@ namespace LeagueSandbox.GameServer
         /// <summary>
         /// Class that compiles and loads all scripts which will be used for the game (ex: spells, items, AI, maps, etc).
         /// </summary>
-        internal static CSharpScriptEngine ScriptEngine { get; private set; }
+        internal CSharpScriptEngine ScriptEngine { get; private set; }
 
         internal FileSystemWatcher ScriptsHotReloadWatcher { get; private set; }
 
         /// <summary>
         /// Instantiates all game managers and handlers.
         /// </summary>
-        public Game(Config cfg)
+        public Game()
         {
-            AssemblyService.TryLoadAssemblies(cfg.AssemblyNames);
             ItemManager = new ItemManager();
             ChatCommandManager = new ChatCommandManager(this);
             NetworkIdManager = new NetworkIdManager();
@@ -157,7 +160,6 @@ namespace LeagueSandbox.GameServer
             ApiMapFunctionManager.SetGame(this, Map as MapScriptHandler);
             ApiFunctionManager.SetGame(this);
             ApiEventManager.SetGame(this);
-            ChampionDeathHandler.Init(this);
             IsRunning = false;
 
             Map.Init();
@@ -222,15 +224,80 @@ namespace LeagueSandbox.GameServer
             RequestHandler.Register<ViewRequest>(new HandleView(this).HandlePacket);
         }
 
+        /// <summary>
+        /// Enables or disables the hot reloading of scripts. Used only for development.
+        /// </summary>
+        public void EnableHotReload(bool status)
+        {
+            string scriptsPath = Config.ContentManager.ContentPath;
+
+            void ScriptsChanged(object _, FileSystemEventArgs ea)
+            {
+                // Disable raising events to avoid triggering LoadScripts() many times in a row after the first event
+                ScriptsHotReloadWatcher.EnableRaisingEvents = false;
+                ChatCommandManager.SendDebugMsgFormatted(DebugMsgType.INFO, LoadScripts() ? "Scripts reloaded." : "Scripts failed to reload.");
+                ScriptsHotReloadWatcher.EnableRaisingEvents = true;
+            }
+
+            if (status && ScriptsHotReloadWatcher == null)
+            {
+                ScriptsHotReloadWatcher = new FileSystemWatcher
+                {
+                    Path = scriptsPath,
+                    IncludeSubdirectories = true,
+                    EnableRaisingEvents = true,
+                    NotifyFilter = NotifyFilters.LastWrite,
+                    Filter = "*.*",
+                };
+                ScriptsHotReloadWatcher.Changed += ScriptsChanged;
+            }
+            else
+            {
+                ScriptsHotReloadWatcher.Changed -= ScriptsChanged;
+                ScriptsHotReloadWatcher = null;
+            }
+        }
+
+        /// <summary>
+        /// Loads the scripts contained in every content package.
+        /// </summary>
+        /// <returns>Whether all scripts were loaded successfully or not.</returns>
+        public bool LoadScripts()
+        {
+            bool scriptLoadingResults = Config.ContentManager.LoadScripts();
+
+            if (scriptLoadingResults)
+            {
+                foreach (var unit in ObjectManager.GetObjects().Values)
+                {
+                    if (unit is ObjAIBase obj)
+                    {
+                        if (obj.Spells.ContainsKey((int)SpellSlotType.PassiveSpellSlot))
+                        {
+                            obj.LoadCharScript(obj.Spells[(int)SpellSlotType.PassiveSpellSlot]);
+                        }
+                        else
+                        {
+                            obj.LoadCharScript();
+                        }
+                        obj.GetBuffs().ForEach(buff => buff.LoadScript());
+                        obj.Spells.Values.ToList().ForEach(spell => spell.LoadScript());
+                    }
+                }
+            }
+
+            return scriptLoadingResults;
+        }
+
         public bool CheckIfAllPlayersLeft()
         {
             var players = PlayerManager.GetPlayers(false);
             // The number of those who are disconnected and not even loads.
             var count = players.Count(p => !p.IsStartedClient && p.IsDisconnected);
             Console.WriteLine($"The number of disconnected players {count}/{players.Count}");
-            if (count == players.Count)
+            if(count == players.Count)
             {
-                _logger.Info("All players have left the server. Server exit.");
+                _logger.Info("All players have left the server. It's lonely here :(");
                 SetToExit = true;
                 return true;
             }
@@ -246,19 +313,19 @@ namespace LeagueSandbox.GameServer
             double timeout = 0;
 
             Stopwatch lastMapDurationWatch = new Stopwatch();
-
+            
             bool wasNotPaused = true;
             bool firstCycle = true;
-
+            
             float timeToForcedStart = Config.ForcedStart;
 
             while (!SetToExit)
             {
                 double lastSleepDuration = lastMapDurationWatch.Elapsed.TotalMilliseconds;
                 lastMapDurationWatch.Restart();
-
+                
                 float deltaTime = (float)lastSleepDuration;
-                if (firstCycle)
+                if(firstCycle)
                 {
                     firstCycle = false;
                     // To avoid Update(0)
@@ -297,9 +364,9 @@ namespace LeagueSandbox.GameServer
                     refreshRate = REFRESH_RATE;
                     wasNotPaused = true;
 
-                    if (!IsRunning && timeToForcedStart > 0)
+                    if(!IsRunning && timeToForcedStart > 0)
                     {
-                        if (timeToForcedStart <= deltaTime && !CheckIfAllPlayersLeft())
+                        if(timeToForcedStart <= deltaTime && !CheckIfAllPlayersLeft())
                         {
                             _logger.Info($"Patience is over. The game will start earlier.");
                             _gameStartHandler.ForceStart();
@@ -316,7 +383,7 @@ namespace LeagueSandbox.GameServer
                 double lastUpdateDuration = lastMapDurationWatch.Elapsed.TotalMilliseconds;
                 double oversleep = lastSleepDuration - timeout;
                 timeout = Math.Max(0, refreshRate - lastUpdateDuration - oversleep);
-
+                
                 _packetServer.NetLoop((uint)timeout);
             }
         }
@@ -376,7 +443,7 @@ namespace LeagueSandbox.GameServer
             {
                 Map.MapScript.OnMatchStart();
             }
-            catch (Exception e)
+            catch(Exception e)
             {
                 _logger.Error(null, e);
             }

@@ -8,9 +8,8 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.SpellNS;
 using LeagueSandbox.GameServer.GameObjects.SpellNS.Sector;
-using LeagueSandbox.GameServer.GameObjects.SpellNS.Missile;
 
-﻿namespace Spells
+namespace Spells
 {
     public class InfernalGuardian : ISpellScript
     {
@@ -80,7 +79,7 @@ using LeagueSandbox.GameServer.GameObjects.SpellNS.Missile;
             // Pyromania stun here
 
             var Ap = spell.CastInfo.Owner.Stats.AbilityPower.Total * 0.8f;
-            var totalDamage = 50 + (125 * spell.CastInfo.SpellLevel) + Ap;
+            var totalDamage = 50 + 125 * spell.CastInfo.SpellLevel + Ap;
             target.TakeDamage(spell.CastInfo.Owner, totalDamage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELLAOE, false);
         }
     }

@@ -1,6 +1,9 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
+using System.IO;
 using System.Reflection;
 using log4net;
+using log4net.Repository;
 
 namespace LeagueSandbox.GameServer.Logging
 {

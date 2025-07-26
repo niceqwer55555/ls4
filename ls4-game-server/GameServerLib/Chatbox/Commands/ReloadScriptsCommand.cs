@@ -12,9 +12,8 @@
 
         public override void Execute(int userId, bool hasReceivedArguments, string arguments = "")
         {
-            //Remove this command?
-            // ChatCommandManager.SendDebugMsgFormatted(DebugMsgType.INFO,
-            //     Game.LoadScripts() ? "Scripts reloaded." : "Scripts failed to reload.");
+            ChatCommandManager.SendDebugMsgFormatted(DebugMsgType.INFO,
+                Game.LoadScripts() ? "Scripts reloaded." : "Scripts failed to reload.");
         }
     }
 }

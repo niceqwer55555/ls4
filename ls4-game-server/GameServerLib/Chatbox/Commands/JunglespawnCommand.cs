@@ -1,5 +1,6 @@
 ﻿using LeagueSandbox.GameServer.Logging;
 using log4net;
+using System;
 
 namespace LeagueSandbox.GameServer.Chatbox.Commands
 {
@@ -23,7 +24,7 @@ namespace LeagueSandbox.GameServer.Chatbox.Commands
             {
                 _game.Map.MapScript.SpawnAllCamps();
             }
-            catch (Exception e)
+            catch(Exception e)
             {
                 _logger.Error(null, e);
             }

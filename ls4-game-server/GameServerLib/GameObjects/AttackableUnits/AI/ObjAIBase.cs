@@ -1,4 +1,7 @@
-﻿using System.Numerics;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Numerics;
 using GameServerCore.Enums;
 using GameServerCore.Scripting.CSharp;
 using GameServerLib.GameObjects.AttackableUnits;
@@ -85,10 +88,6 @@ namespace LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI
         public ICharScript CharScript { get; private set; }
         public bool IsBot { get; set; }
         public IAIScript AIScript { get; protected set; }
-
-        internal readonly List<AssistMarker> AlliedAssistMarkers = new();
-        internal readonly List<AssistMarker> EnemyAssistMarkers = new();
-
         public ObjAIBase(Game game, string model, string name = "", int collisionRadius = 0,
             Vector2 position = new Vector2(), int visionRadius = 0, int skinId = 0, uint netId = 0, TeamId team = TeamId.TEAM_NEUTRAL, Stats stats = null, string aiScript = "") :
             base(game, model, collisionRadius, position, visionRadius, netId, team, stats)
@@ -224,7 +223,7 @@ namespace LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI
                 IsMelee = true;
             }
 
-            AIScript = Game.ScriptEngine.CreateObject<IAIScript>($"AIScripts", aiScript) ?? new EmptyAIScript();
+            AIScript = game.ScriptEngine.CreateObject<IAIScript>($"AIScripts", aiScript) ?? new EmptyAIScript();
             try
             {
                 AIScript.OnActivate(this);
@@ -257,7 +256,7 @@ namespace LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI
         /// </summary>
         public void LoadCharScript(Spell spell = null)
         {
-            CharScript = Game.ScriptEngine.CreateObject<ICharScript>("CharScripts", $"CharScript{Model}") ?? new CharScriptEmpty();
+            CharScript = CSharpScriptEngine.CreateObjectStatic<ICharScript>("CharScripts", $"CharScript{Model}") ?? new CharScriptEmpty();
         }
 
         /// <summary>
@@ -1095,7 +1094,6 @@ namespace LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI
                 Inventory.OnUpdate(diff);
             }
 
-            UpdateAssistMarkers();
             UpdateTarget();
 
             if (_autoAttackCurrentCooldown > 0)
@@ -1396,68 +1394,6 @@ namespace LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI
         public void PauseAI(bool isPaused)
         {
             _aiPaused = isPaused;
-        }
-
-        internal void AddAssistMarker(ObjAIBase sourceUnit, float duration, DamageData damageData = null)
-        {
-            if (sourceUnit is Champion)
-            {
-                if (sourceUnit.Team == Team)
-                {
-                    AuxAddAssistMarker(AlliedAssistMarkers, sourceUnit, duration, damageData);
-                }
-                else
-                {
-                    AuxAddAssistMarker(EnemyAssistMarkers, sourceUnit, duration, damageData);
-                }
-            }
-        }
-
-        void AuxAddAssistMarker(List<AssistMarker> assistList, ObjAIBase sourceUnit, float duration, DamageData damageData = null)
-        {
-            AssistMarker? assistMarker = assistList.Find(x => x.Source == sourceUnit);
-            if (assistMarker is not null)
-            {
-                float desiredDuration = _game.GameTime + duration * 1000;
-                assistMarker.StartTime = _game.GameTime;
-                assistMarker.EndTime = assistMarker.EndTime < desiredDuration ? desiredDuration : assistMarker.EndTime;
-            }
-            else
-            {
-                assistMarker = new()
-                {
-                    Source = sourceUnit,
-                    StartTime = _game.GameTime,
-                    EndTime = _game.GameTime + duration * 1000
-                };
-
-                assistList.Add(assistMarker);
-            }
-
-            if (damageData is not null)
-            {
-                switch (damageData.DamageType)
-                {
-                    case DamageType.DAMAGE_TYPE_PHYSICAL:
-                        assistMarker.PhysicalDamage += damageData.Damage;
-                        break;
-                    case DamageType.DAMAGE_TYPE_MAGICAL:
-                        assistMarker.MagicalDamage += damageData.Damage;
-                        break;
-                    case DamageType.DAMAGE_TYPE_TRUE:
-                        assistMarker.TrueDamage += damageData.Damage;
-                        break;
-                }
-            }
-
-            assistList = assistList.OrderByDescending(x => x.StartTime).ToList();
-        }
-
-        private void UpdateAssistMarkers()
-        {
-            //Maybe optimize this later since it's a sorted list?
-            AlliedAssistMarkers.RemoveAll(x => x.EndTime < _game.GameTime);
-            EnemyAssistMarkers.RemoveAll(x => x.EndTime < _game.GameTime);
         }
     }
 }

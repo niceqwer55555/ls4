@@ -1,7 +1,10 @@
-﻿using System.Numerics;
+﻿using System;
+using System.Collections.Generic;
+using System.Numerics;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.Content;
 using LeagueSandbox.GameServer.Logging;
+using LeagueSandbox.GameServer.Scripting.CSharp;
 using log4net;
 using MapScripts;
 using static GameServerCore.Content.HashFunctions;
@@ -60,7 +63,7 @@ namespace LeagueSandbox.GameServer.Handlers
             Id = _game.Config.GameConfig.Map;
 
             string scriptName = game.Config.GameConfig.GameMode;
-            MapScript = Game.ScriptEngine.CreateObject<IMapScript>($"MapScripts.Map{Id}", scriptName) ?? new EmptyMapScript();
+            MapScript = CSharpScriptEngine.CreateObjectStatic<IMapScript>($"MapScripts.Map{Id}", scriptName) ?? new EmptyMapScript();
             ScriptNameHash = HashString(scriptName);
 
             if (MapScript.PlayerSpawnPoints != null && MapScript.MapScriptMetadata.OverrideSpawnPoints)

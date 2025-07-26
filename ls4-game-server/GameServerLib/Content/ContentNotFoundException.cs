@@ -1,4 +1,6 @@
-﻿namespace LeagueSandbox.GameServer.Content
+﻿using System;
+
+namespace LeagueSandbox.GameServer.Content
 {
     internal class ContentNotFoundException : Exception
     {

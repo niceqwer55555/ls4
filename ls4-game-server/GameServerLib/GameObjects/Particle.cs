@@ -1,4 +1,6 @@
 ﻿using GameServerCore.Enums;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.GameObjects.Other;
 using System.Numerics;
 
 namespace LeagueSandbox.GameServer.GameObjects

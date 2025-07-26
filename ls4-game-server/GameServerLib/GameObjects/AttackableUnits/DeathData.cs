@@ -34,9 +34,5 @@ namespace GameServerLib.GameObjects.AttackableUnits
         /// Time until death finishes (fade-out duration?).
         /// </summary>
         public float DeathDuration { get; set; }
-        /// <summary>
-        /// Ammount of Gold rewarded to the Killer
-        /// </summary>
-        public float GoldReward { get; set; }
     }
 }
