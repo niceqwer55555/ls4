@@ -48,7 +48,7 @@ namespace Spells
         {
 			var owner = spell.CastInfo.Owner;
 			var randPoint1 = new Vector2(owner.Position.X + (10.0f), owner.Position.Y + 10.0f);	
-			//ForceMovement(owner, null, randPoint1, 0.5f, 0, -280, 0);
+			ForceMovement(owner, null, randPoint1, 0.5f, 0, -280, 0);
 			SpellCast(owner, 2, SpellSlotType.ExtraSlots, false, _target, Vector2.Zero);
 			owner.StopMovement();
         }
