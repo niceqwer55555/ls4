@@ -1,51 +1,22 @@
-# League Sandbox Game Server
+# League of Legends server emulator
+League of Legends Emulator is an open-source application and framework designed for hosting multiplayer online battle arena (MOBA) games. It is based on the popular MOBA game League of Legends (LoL) and seeks to recreate the gameplay experience of the original game.
 
-**This repository is now closed to further contributions**
+It is written in C# and provides a solid foundation for creating private servers that try to mimic the mechanics and behavior of the official League of Legends servers from around 2015.
 
-Message from [@MythicManiac](https://github.com/MythicManiac)
+**Note: This project is not production-ready and may contain unsafe code. Use it at your own risk.**
 
-[(You can find the old readme here)](README-old.md)
+# Requirements
+* Install Microsoft Visual Studio 2022 
+* Install latest .NET Framework and Core (VS Installer should let you do that, otherwise check [here](https://dotnet.microsoft.com/download/dotnet-framework) for Framework, and [here](https://dotnet.microsoft.com/download/dotnet-core) for Core)
+* Download the League of Legends client (4.20) [here](https://www.mediafire.com/file/rm32t1nbbca6zph/League-of-Legends-4.20.rar/file)
 
-## What happened?
+# Installation
+ 1. Build the server
+ 2. Connect to the gameserver by launching `Start Game.bat` 
 
-On August 9th 2022, **Riot Games issued a cease & desist** to me personally,
-demanding that this GitHub repository and the associated Discord server to be
-taken down on the basis of them supposedly infringing Riot's copyright. I have
-no reason to believe the repository is violating Riot's copyright rights, and
-I’m not operating and haven’t operated a private League of Legends server. While
-I'm glad to help protect Riot's copyright rights, it’s not clear to me what
-rights they think have been violated and what they think my role might have been
-in that regard. I’m also a huge advocate of Open Source and GitHub
-collaboration. I informed them regarding all of this.
+# Customization
+ - `GameInfo.json` file is a configuration file that defines the settings and details of the game and players. It allows for customization of various game parameters, player attributes, and gameplay features.
 
-**Like any content creator, Riot has every right to enforce its copyrights.**
-Even though their demand letter was vague, I think it was sent out in good
-faith. It would be a different matter if Riot was sending out false claims and
-abusing the legal system for their gain, but I don't believe that to be the case
-here. In any event, it looks like they had a simple misconception about the
-extent of my involvement with this project.
-
-## What's next?
-
-Legal allegations aside, this incident has had me re-think my involvement with
-the project. Given that I haven't been an active participant since 2018,
-it doesn't feel right for me to retain administrator permissions in the main
-fork of the project.
-
-Likewise it's in the spirit of open source for maintainers to change over time,
-and I believe that's long overdue in this case. In fact you could say the
-maintainer already changed in 2018, I just didn't transfer them my admin
-credentials.
-
-Based on these reasons, and in light of Riot's wishes, **I've decided the best
-course of action is to archive this project**, closing it to further
-contributions.
-
-I believe archival to be a good solution as that ensures any prior contributors
-can still use their contributions e.g. as a part of their portfolio (something
-I know older contributors have done & continue to do) while still signaling the
-end of my role in its entirety.
-
-Finally, I suggest anyone who dislikes the way copyright laws work currently to
-get more politically active in favor of creative freedom, and to support
-organizations such as [the EFF](https://www.eff.org/).
+# Community & Extra Information
+Project website along with more specifications can be found from: https://leaguesandbox.github.io/  
+Project chat on Discord: https://discord.gg/Bz3znAM

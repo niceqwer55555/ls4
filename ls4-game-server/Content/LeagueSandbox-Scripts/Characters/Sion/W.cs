@@ -1,54 +1,40 @@
+
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using System.Numerics;
 using GameServerCore.Scripting.CSharp;
-using LeagueSandbox.GameServer.API;
-using            GameServerLib.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.SpellNS;
-using LeagueSandbox.GameServer.GameObjects.StatsNS;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
+using GameServerCore.Enums;
+using LeagueSandbox.GameServer.GameObjects.SpellNS.Missile;
+using LeagueSandbox.GameServer.GameObjects.SpellNS.Sector;
+using LeagueSandbox.GameServer.API;
 
 namespace Spells
 {
     public class SionW : ISpellScript
     {
-        public StatsModifier StatsModifier { get; private set; } = new StatsModifier();
-        Spell thisSpell;
+        ObjAIBase Owner;
 
-        public SpellScriptMetadata ScriptMetadata => new SpellScriptMetadata()
+        Vector2 spellpos;
+        public SpellScriptMetadata ScriptMetadata { get; private set; } = new SpellScriptMetadata()
         {
-            TriggersSpellCasts = true
-            // TODO
+            TriggersSpellCasts = true,
         };
 
         public void OnActivate(ObjAIBase owner, Spell spell)
         {
-            ApiEventManager.OnKillUnit.AddListener(this, owner, OnKillMinion, false);
-            ApiEventManager.OnKill.AddListener(this, owner, OnKillChampion, false);
-            thisSpell = spell;
+            Owner = owner;
         }
-        public void OnKillMinion(DeathData deathData)
-        {
-            if (thisSpell.CastInfo.SpellLevel >= 1)
-            {
-                var owner = deathData.Killer;
-                float extraHealth = 2f;
 
-                StatsModifier.HealthPoints.FlatBonus = extraHealth;
-                deathData.Killer.AddStatModifier(StatsModifier);
-                owner.Stats.CurrentHealth += extraHealth;
-            }
-        }
-        public void OnKillChampion(DeathData deathData)
-        {
-            if (thisSpell.CastInfo.SpellLevel >= 1)
-            {
-                var owner = deathData.Killer;
-                float extraHealth = 10f;
 
-                StatsModifier.HealthPoints.FlatBonus = extraHealth;
-                owner.AddStatModifier(StatsModifier);
-                owner.Stats.CurrentHealth += extraHealth;
-            }
+        public void OnSpellCast(Spell spell)
+        {
+            var owner = spell.CastInfo.Owner;
+
+            AddBuff("SionWShield", 10f, 1, spell, Owner, Owner, false);
+            AddBuff("SionWSwitch", 10f, 1, spell, Owner, Owner, false);
         }
     }
 }
-
