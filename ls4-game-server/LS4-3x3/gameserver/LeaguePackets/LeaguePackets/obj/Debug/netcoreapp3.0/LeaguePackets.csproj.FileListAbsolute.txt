@@ -1,0 +1,8 @@
+D:\game\lol\LS4-3x3\gameserver\LeaguePackets\LeaguePackets\bin\Debug\netcoreapp3.0\LeaguePackets.deps.json
+D:\game\lol\LS4-3x3\gameserver\LeaguePackets\LeaguePackets\bin\Debug\netcoreapp3.0\LeaguePackets.dll
+D:\game\lol\LS4-3x3\gameserver\LeaguePackets\LeaguePackets\bin\Debug\netcoreapp3.0\LeaguePackets.pdb
+D:\game\lol\LS4-3x3\gameserver\LeaguePackets\LeaguePackets\obj\Debug\netcoreapp3.0\LeaguePackets.csproj.AssemblyReference.cache
+D:\game\lol\LS4-3x3\gameserver\LeaguePackets\LeaguePackets\obj\Debug\netcoreapp3.0\LeaguePackets.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\LS4-3x3\gameserver\LeaguePackets\LeaguePackets\obj\Debug\netcoreapp3.0\LeaguePackets.csproj.CoreCompileInputs.cache
+D:\game\lol\LS4-3x3\gameserver\LeaguePackets\LeaguePackets\obj\Debug\netcoreapp3.0\LeaguePackets.dll
+D:\game\lol\LS4-3x3\gameserver\LeaguePackets\LeaguePackets\obj\Debug\netcoreapp3.0\LeaguePackets.pdb

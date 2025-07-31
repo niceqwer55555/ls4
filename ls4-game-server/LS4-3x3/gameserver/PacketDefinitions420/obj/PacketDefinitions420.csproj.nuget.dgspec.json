@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj": {}
+  },
+  "projects": {
+    "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj",
+        "projectName": "GameServerCore",
+        "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj": {
+                "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj"
+              },
+              "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj": {
+                "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Crc32.NET": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+        "projectName": "LeaguePackets",
+        "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj",
+        "projectName": "PacketDefinitions420",
+        "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj": {
+                "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj"
+              },
+              "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj": {
+                "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "LENet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj",
+        "projectName": "QuadTree",
+        "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kiLXmXHkOmUCI0WaTJdLqX2LnWXa8CmNZNeBY2pVPxGjSEWEW443hMr87qVrdicYeR1gxYESk12+gSB7sgJhFQ==",
+  "success": true,
+  "projectFilePath": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\555\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

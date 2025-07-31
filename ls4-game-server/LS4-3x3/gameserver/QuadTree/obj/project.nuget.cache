@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GI4cPNzX6Vp1BJKM4LWFFRJLl+ZyK35Hd8XaTaGsV+VVnKtGFCSN+pQffInhjSxjV1C+/hadNYwsu8tQvHFODQ==",
+  "success": true,
+  "projectFilePath": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\555\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

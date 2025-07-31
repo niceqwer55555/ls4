@@ -1,0 +1,10 @@
+D:\game\lol\LS4-3x3\gameserver\GameMaths\bin\Debug\netcoreapp3.0\GameMaths.deps.json
+D:\game\lol\LS4-3x3\gameserver\GameMaths\bin\Debug\netcoreapp3.0\GameMaths.dll
+D:\game\lol\LS4-3x3\gameserver\GameMaths\bin\Debug\netcoreapp3.0\GameMaths.pdb
+D:\game\lol\LS4-3x3\gameserver\GameMaths\obj\Debug\netcoreapp3.0\GameMaths.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\LS4-3x3\gameserver\GameMaths\obj\Debug\netcoreapp3.0\GameMaths.AssemblyInfoInputs.cache
+D:\game\lol\LS4-3x3\gameserver\GameMaths\obj\Debug\netcoreapp3.0\GameMaths.AssemblyInfo.cs
+D:\game\lol\LS4-3x3\gameserver\GameMaths\obj\Debug\netcoreapp3.0\GameMaths.csproj.CoreCompileInputs.cache
+D:\game\lol\LS4-3x3\gameserver\GameMaths\obj\Debug\netcoreapp3.0\GameMaths.dll
+D:\game\lol\LS4-3x3\gameserver\GameMaths\obj\Debug\netcoreapp3.0\GameMaths.pdb
+D:\game\lol\LS4-3x3\gameserver\GameMaths\obj\Debug\netcoreapp3.0\GameMaths.csproj.AssemblyReference.cache

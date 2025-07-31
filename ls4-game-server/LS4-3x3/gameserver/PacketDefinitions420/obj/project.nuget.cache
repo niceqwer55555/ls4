@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "0ypE7/qglf07E7meS5kKed6S1IOTA3+5Nf5Vq6ho6hBwVgi1GEOmQw7LvS4eVKdusSDfaTs8M4awd3ROhsN6Hw==",
+  "success": true,
+  "projectFilePath": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\555\\.nuget\\packages\\crc32.net\\1.2.0\\crc32.net.1.2.0.nupkg.sha512",
+    "C:\\Users\\555\\.nuget\\packages\\lenet\\1.0.1\\lenet.1.0.1.nupkg.sha512",
+    "C:\\Users\\555\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\555\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\555\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\555\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\555\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
