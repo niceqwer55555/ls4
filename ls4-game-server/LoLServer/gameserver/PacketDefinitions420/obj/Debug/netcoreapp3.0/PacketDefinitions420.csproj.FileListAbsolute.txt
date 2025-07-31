@@ -1,0 +1,17 @@
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\PacketDefinitions420.deps.json
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\PacketDefinitions420.dll
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\PacketDefinitions420.pdb
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\GameServerCore.dll
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\LeaguePackets.dll
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\QuadTree.dll
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\GameServerCore.pdb
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\LeaguePackets.pdb
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\bin\Debug\netcoreapp3.0\QuadTree.pdb
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\obj\Debug\netcoreapp3.0\PacketDefinitions420.csproj.AssemblyReference.cache
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\obj\Debug\netcoreapp3.0\PacketDefinitions420.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\obj\Debug\netcoreapp3.0\PacketDefinitions420.AssemblyInfoInputs.cache
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\obj\Debug\netcoreapp3.0\PacketDefinitions420.AssemblyInfo.cs
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\obj\Debug\netcoreapp3.0\PacketDefinitions420.csproj.CoreCompileInputs.cache
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\obj\Debug\netcoreapp3.0\PacketDefinitions420.csproj.CopyComplete
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\obj\Debug\netcoreapp3.0\PacketDefinitions420.dll
+D:\game\lol\LS4-3x3\gameserver\PacketDefinitions420\obj\Debug\netcoreapp3.0\PacketDefinitions420.pdb
