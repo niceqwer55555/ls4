@@ -2542,3 +2542,601 @@
 8753 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: AIScripts.
 8763 [1] INFO LeagueSandbox.GameServer.Game (null) - Game is ready.
 8766 [1] WARN LeagueSandbox.GameServerConsole.Program (null) - Unable to find League of Legends.exe. Check the GameServerSettings.json settings and your League location.
+208 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Champions, skipping...
+242 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Spells, skipping...
+243 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Stats, skipping...
+3926 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Loaded all C# scripts from package: LeagueSandbox-Scripts
+3927 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: LeagueSandbox-Scripts
+3928 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Default does not contain Champions, skipping...
+3946 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Default does not contain Buffs, skipping...
+4559 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - LeagueSandbox-Default does not have C# scripts, skipping...
+4560 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: LeagueSandbox-Default
+4567 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4571 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4572 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4573 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4574 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4575 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4578 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4579 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4581 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4583 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4584 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4585 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+4590 [1] DEBUG LeagueSandbox.GameServer.Server (null) - League Sandbox Build 12/10/2073 04:45:08 UTC
+4590 [1] DEBUG LeagueSandbox.GameServer.Server (null) - Yorick 0.2.0
+4591 [1] INFO LeagueSandbox.GameServer.Server (null) - Game started on port: 5119
+4619 [1] INFO LeagueSandbox.GameServer.Game (null) - Loading Config.
+4838 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - LeagueSandbox-Scripts does not contain a navgrid, skipping...
+4984 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretAngel
+5009 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretAngelBasicAttack
+5010 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for OrderTurretAngelCritAttack.
+5011 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: OrderTurretAngelCritAttack in any package.
+5012 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretAngelCritAttack
+5023 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretAngel
+5029 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretAngelBasicAttack
+5030 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretAngelCritAttack
+5033 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretDragon
+5044 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretDragonBasicAttack
+5045 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for OrderTurretDragonCritAttack.
+5046 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: OrderTurretDragonCritAttack in any package.
+5050 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretDragonCritAttack
+5051 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretDragon
+5057 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretDragonBasicAttack
+5058 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretDragonCritAttack
+5059 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretDragon
+5095 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretDragonBasicAttack
+5097 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretDragonCritAttack
+5100 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretNormal2
+5121 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormal2BasicAttack
+5123 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for OrderTurretNormal2CritAttack.
+5123 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: OrderTurretNormal2CritAttack in any package.
+5124 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormal2CritAttack
+5125 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretNormal
+5132 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormalBasicAttack
+5133 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for OrderTurretNormalCritAttack.
+5134 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: OrderTurretNormalCritAttack in any package.
+5135 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormalCritAttack
+5138 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretNormal2
+5144 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormal2BasicAttack
+5145 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormal2CritAttack
+5146 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretNormal
+5151 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormalBasicAttack
+5152 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormalCritAttack
+5153 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretNormal2
+5159 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormal2BasicAttack
+5160 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormal2CritAttack
+5161 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretNormal
+5169 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormalBasicAttack
+5169 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretNormalCritAttack
+5171 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretWorm
+5179 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWormBasicAttack
+5180 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for ChaosTurretWormCritAttack.
+5181 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: ChaosTurretWormCritAttack in any package.
+5184 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWormCritAttack
+5186 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretWorm2
+5192 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWorm2BasicAttack
+5193 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for ChaosTurretWorm2CritAttack.
+5193 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: ChaosTurretWorm2CritAttack in any package.
+5195 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWorm2CritAttack
+5198 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretWorm
+5206 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWormBasicAttack
+5207 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWormCritAttack
+5208 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretWorm2
+5214 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWorm2BasicAttack
+5219 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWorm2CritAttack
+5222 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretWorm2
+5226 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWorm2BasicAttack
+5227 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWorm2CritAttack
+5228 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretWorm
+5235 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWormBasicAttack
+5238 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretWormCritAttack
+5240 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretGiant
+5247 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretGiantBasicAttack
+5248 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for ChaosTurretGiantCritAttack.
+5249 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: ChaosTurretGiantCritAttack in any package.
+5251 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretGiantCritAttack
+5253 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretNormal
+5260 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretNormalBasicAttack
+5261 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for ChaosTurretNormalCritAttack.
+5262 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: ChaosTurretNormalCritAttack in any package.
+5264 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretNormalCritAttack
+5264 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretNormal
+5270 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretNormalBasicAttack
+5271 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretNormalCritAttack
+5272 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretGiant
+5278 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretGiantBasicAttack
+5279 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretGiantCritAttack
+5280 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretGiant
+5288 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretGiantBasicAttack
+5289 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretGiantCritAttack
+5290 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptOrderTurretShrine
+5298 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretShrineBasicAttack
+5298 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for OrderTurretShrineCritAttack.
+5299 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: OrderTurretShrineCritAttack in any package.
+5304 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.OrderTurretShrineCritAttack
+5306 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptChaosTurretShrine
+5312 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretShrineBasicAttack
+5313 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for ChaosTurretShrineCritAttack.
+5314 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: ChaosTurretShrineCritAttack in any package.
+5319 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.ChaosTurretShrineCritAttack
+5328 [1] INFO LeagueSandbox.GameServer.Game (null) - Add players
+5329 [1] INFO LeagueSandbox.GameServer.Game (null) - Player Test Added: Ezreal
+5341 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for EzrealRisingSpellForceBuff.
+5343 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: EzrealRisingSpellForceBuff in any package.
+5353 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.EzrealMysticShotPulseMissile
+5356 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.EzrealBasicAttack
+5359 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.EzrealBasicAttack2
+5361 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.EzrealCritAttack
+5362 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: AIScripts.
+5370 [1] INFO LeagueSandbox.GameServer.Game (null) - Game is ready.
+5372 [1] WARN LeagueSandbox.GameServerConsole.Program (null) - Unable to find League of Legends.exe. Check the GameServerSettings.json settings and your League location.
+14375 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleSync (null) - Current map: 1
+14376 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleSync (null) - Accepted client version (Version 4.20.0.315 [PUBLIC]) from client = 0 & PlayerID = 1
+24376 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleSpawn (null) - Spawning map
+27068 [1] DEBUG LeagueSandbox.GameServer.GameObjects.AttackableUnits.AttackableUnit (null) - Champion Ezreal leveled up to 1
+27086 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemInitialAttack
+27089 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemBasicAttack
+27090 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for AncientGolemCritAttack.
+27090 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: AncientGolemCritAttack in any package.
+27093 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemCritAttack
+27098 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+27174 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+27175 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for YoungLizardCritAttack.
+27177 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: YoungLizardCritAttack in any package.
+27181 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+27183 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+27190 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+27190 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+27193 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGiantWolf
+27202 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GiantWolfBasicAttack
+27203 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for GiantWolfCritAttack.
+27203 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: GiantWolfCritAttack in any package.
+27206 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GiantWolfCritAttack
+27208 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWolf
+27215 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for WolfBasicAttack.
+27216 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: WolfBasicAttack in any package.
+27217 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfBasicAttack
+27220 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for WolfCritAttack.
+27220 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: WolfCritAttack in any package.
+27221 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfCritAttack
+27223 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWolf
+27230 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfBasicAttack
+27233 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfCritAttack
+27236 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWraith
+27244 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WraithBasicAttack
+27245 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for WraithCritAttack.
+27246 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: WraithCritAttack in any package.
+27249 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WraithCritAttack
+27252 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+27259 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+27260 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for LesserWraithCritAttack.
+27260 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: LesserWraithCritAttack in any package.
+27261 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+27267 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+27274 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+27275 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+27276 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+27284 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+27285 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+27292 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderInitialAttack
+27296 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack
+27299 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack2
+27301 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack3
+27302 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack4
+27303 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for LizardElderCritAttack.
+27303 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: LizardElderCritAttack in any package.
+27304 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderCritAttack
+27306 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+27314 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+27315 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+27316 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+27323 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+27324 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+27328 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptSmallGolem
+27338 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SmallGolemBasicAttack
+27339 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for SmallGolemCritAttack.
+27339 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: SmallGolemCritAttack in any package.
+27340 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SmallGolemCritAttack
+27343 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGolem
+27356 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GolemBasicAttack
+27357 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for GolemCritAttack.
+27359 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: GolemCritAttack in any package.
+27360 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GolemCritAttack
+27364 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptDragon
+27372 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.DragonBasicAttack
+27374 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for DragonCritAttack.
+27375 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: DragonCritAttack in any package.
+27378 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.DragonCritAttack
+27383 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemInitialAttack
+27385 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemBasicAttack
+27386 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemCritAttack
+27389 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+27397 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+27397 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+27399 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+27410 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+27412 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+27415 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGiantWolf
+27424 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GiantWolfBasicAttack
+27425 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GiantWolfCritAttack
+27428 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWolf
+27435 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfBasicAttack
+27437 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfCritAttack
+27439 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWolf
+27447 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfBasicAttack
+27447 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfCritAttack
+27449 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWraith
+27457 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WraithBasicAttack
+27458 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WraithCritAttack
+27460 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+27469 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+27470 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+27471 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+27479 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+27480 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+27482 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+27490 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+27491 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+27497 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderInitialAttack
+27501 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack
+27502 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack2
+27503 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack3
+27504 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack4
+27504 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderCritAttack
+27506 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+27512 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+27513 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+27518 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+27524 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+27525 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+27526 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptSmallGolem
+27535 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SmallGolemBasicAttack
+27536 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SmallGolemCritAttack
+27537 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGolem
+27543 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GolemBasicAttack
+27544 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GolemCritAttack
+27551 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SweepingBlow
+27552 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.Propel
+27554 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WrathoftheAncients
+27556 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WormAttack
+27557 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWorm
+27566 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WormBasicAttack
+27567 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for WormCritAttack.
+27567 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: WormCritAttack in any package.
+27568 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WormCritAttack
+27570 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGreatWraith
+27579 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GreatWraithBasicAttack
+27580 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package: LeagueSandbox-Default does not contain file for GreatWraithCritAttack.
+27583 [1] WARN LeagueSandbox.GameServer.Content.SpellData (null) - No Spells found with name: GreatWraithCritAttack in any package.
+27584 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GreatWraithCritAttack
+27585 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGreatWraith
+27592 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GreatWraithBasicAttack
+27595 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GreatWraithCritAttack
+27601 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27602 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27603 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27604 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27604 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27605 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27606 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27607 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27608 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1504
+27612 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27613 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27614 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27615 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27616 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27616 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27617 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27618 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27618 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27619 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27620 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27620 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27621 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27622 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27622 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27623 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27624 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27630 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27631 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27632 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27633 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1504
+27634 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27635 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27636 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27637 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27638 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27638 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27639 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27640 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27645 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27646 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27647 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27648 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27648 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1504
+27649 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27650 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27650 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27651 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27652 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27652 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27653 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27654 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27654 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1504
+27655 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27660 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27661 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27663 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27664 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27664 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27665 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27666 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27666 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27667 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27668 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27668 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27669 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27671 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27671 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27672 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27678 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1504
+27680 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27680 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27681 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27682 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27682 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27683 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27684 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27684 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27685 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27686 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27686 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27687 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+27692 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27693 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27695 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27695 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27696 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1500
+27697 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27698 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27698 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27699 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1504
+27700 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1501
+27700 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1502
+27701 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1503
+27702 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_1505
+28086 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleScoreboard (null) - Player Test has looked at the scoreboard.
+32896 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleScoreboard (null) - Player Test has looked at the scoreboard.
+33456 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleScoreboard (null) - Player Test has looked at the scoreboard.
+41521 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleScoreboard (null) - Player Test has looked at the scoreboard.
+44042 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleScoreboard (null) - Player Test has looked at the scoreboard.
+44573 [1] DEBUG LeagueSandbox.GameServer.Packets.PacketHandlers.HandleScoreboard (null) - Player Test has looked at the scoreboard.
+117066 [1] DEBUG LeagueSandbox.GameServer.GameObjects.AttackableUnits.AttackableUnit (null) - Generating Gold!
+142082 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemInitialAttack
+142085 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemBasicAttack
+142087 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemCritAttack
+142102 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+142108 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+142109 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+142111 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+142117 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+142119 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+142124 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderInitialAttack
+142126 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack
+142128 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack2
+142128 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack3
+142129 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack4
+142130 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderCritAttack
+142133 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+142140 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+142141 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+142143 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+142149 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+142150 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+142155 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemInitialAttack
+142162 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemBasicAttack
+142163 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.AncientGolemCritAttack
+142168 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+142173 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+142173 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+142176 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+142185 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+142186 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+142190 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderInitialAttack
+142192 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack
+142193 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack2
+142194 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack3
+142198 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderBasicAttack4
+142199 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LizardElderCritAttack
+142203 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+142208 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+142209 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+142214 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptYoungLizard
+142221 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardBasicAttack
+142221 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.YoungLizardCritAttack
+152077 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGiantWolf
+152084 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GiantWolfBasicAttack
+152086 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GiantWolfCritAttack
+152088 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWolf
+152093 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfBasicAttack
+152095 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfCritAttack
+152102 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWolf
+152108 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfBasicAttack
+152110 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfCritAttack
+152111 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWraith
+152119 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WraithBasicAttack
+152120 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WraithCritAttack
+152122 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+152129 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+152130 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+152139 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+152145 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+152146 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+152150 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+152155 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+152156 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+152158 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptSmallGolem
+152163 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SmallGolemBasicAttack
+152165 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SmallGolemCritAttack
+152169 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGolem
+152175 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GolemBasicAttack
+152176 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GolemCritAttack
+152177 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGiantWolf
+152183 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GiantWolfBasicAttack
+152184 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GiantWolfCritAttack
+152186 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWolf
+152195 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfBasicAttack
+152196 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfCritAttack
+152198 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWolf
+152202 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfBasicAttack
+152203 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WolfCritAttack
+152206 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptWraith
+152212 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WraithBasicAttack
+152214 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.WraithCritAttack
+152215 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+152221 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+152222 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+152224 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+152229 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+152231 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+152236 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptLesserWraith
+152241 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithBasicAttack
+152241 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.LesserWraithCritAttack
+152243 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptSmallGolem
+152250 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SmallGolemBasicAttack
+152251 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.SmallGolemCritAttack
+152252 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGolem
+152257 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GolemBasicAttack
+152258 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GolemCritAttack
+152260 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGreatWraith
+152266 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GreatWraithBasicAttack
+152268 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GreatWraithCritAttack
+152270 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptGreatWraith
+152276 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GreatWraithBasicAttack
+152277 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.GreatWraithCritAttack
+177076 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: CharScripts.CharScriptDragon
+177083 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.DragonBasicAttack
+177085 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Spells.DragonCritAttack
+150 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Champions, skipping...
+181 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Spells, skipping...
+182 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Stats, skipping...
+3801 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Loaded all C# scripts from package: LeagueSandbox-Scripts
+3801 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: LeagueSandbox-Scripts
+3802 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Default does not contain Champions, skipping...
+3827 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Default does not contain Buffs, skipping...
+4314 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - LeagueSandbox-Default does not have C# scripts, skipping...
+4316 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: LeagueSandbox-Default
+4321 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4322 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4323 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4323 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4324 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4326 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4327 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4328 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4329 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4330 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4331 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4332 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+4333 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4339 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4345 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4346 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4348 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4348 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4349 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4350 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4351 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4352 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4352 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4353 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+4354 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4354 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4355 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4356 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4357 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4357 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4358 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4359 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4360 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4362 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4364 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4368 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+151 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Champions, skipping...
+181 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Spells, skipping...
+182 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Stats, skipping...
+3781 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Loaded all C# scripts from package: LeagueSandbox-Scripts
+3782 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: LeagueSandbox-Scripts
+3783 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Default does not contain Champions, skipping...
+3806 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Default does not contain Buffs, skipping...
+4283 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - LeagueSandbox-Default does not have C# scripts, skipping...
+4283 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: LeagueSandbox-Default
+4288 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4289 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4290 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4291 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4292 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4293 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4293 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4298 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4303 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4303 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4305 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4306 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+4308 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4309 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4309 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4311 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4312 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4313 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4313 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4318 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4326 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4328 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4329 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4330 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+4331 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4332 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4333 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4339 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4340 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4343 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4344 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4345 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4346 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4347 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4347 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4349 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+148 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\Content//packageInfo.json not found, skipping...
+174 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package  does not contain Champions, skipping...
+175 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package  does not contain Items, skipping...
+175 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package  does not contain Buffs, skipping...
+176 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package  does not contain Maps, skipping...
+176 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package  does not contain Spells, skipping...
+176 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package  does not contain Stats, skipping...
+178 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package:  does not contain any items, skipping...
+179 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package:  does not contain any Talents, skipping...
+3830 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Loaded all C# scripts from package: 
+3831 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: 
+3836 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4111 found! Skipping...
+3837 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4112 found! Skipping...
+3837 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4114 found! Skipping...
+3839 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4122 found! Skipping...
+3839 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4124 found! Skipping...
+3840 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4132 found! Skipping...
+3841 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4134 found! Skipping...
+3842 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4142 found! Skipping...
+3842 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4151 found! Skipping...
+3843 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4152 found! Skipping...
+3844 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4162 found! Skipping...
+3844 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4211 found! Skipping...
+3845 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4213 found! Skipping...
+3846 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4221 found! Skipping...
+3846 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4222 found! Skipping...
+3847 [1] WARN LeagueSandbox.GameServer.Inventory.TalentInventory (null) - No Talent with ID 4232 found! Skipping...
+3855 [1] DEBUG LeagueSandbox.GameServer.Server (null) - League Sandbox Build 12/10/2073 04:45:08 UTC
+3855 [1] DEBUG LeagueSandbox.GameServer.Server (null) - Yorick 0.2.0
+3856 [1] INFO LeagueSandbox.GameServer.Server (null) - Game started on port: 5119
+3877 [1] INFO LeagueSandbox.GameServer.Game (null) - Loading Config.

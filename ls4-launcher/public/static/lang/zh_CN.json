@@ -9,6 +9,7 @@
     "BG_QUEUE_INFO_INQUEUE": "队列中",
     "BG_BACKPLANE_SHOWANIM": "启用动画",
     "BG_BACKPLANE_TOGGLEMUSIC": "启用音乐",
+    "BG_PLAY_BTN": "开始游戏",
 
     "__comment": "Login screen locales",
     "LOGIN_LOGIN_TITLE": "账户登录",
