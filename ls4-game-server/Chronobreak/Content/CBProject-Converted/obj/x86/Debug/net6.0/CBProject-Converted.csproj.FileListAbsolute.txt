@@ -1,0 +1,4 @@
+D:\game\lol\Chronobreak\Content\CBProject-Converted\obj\x86\Debug\net6.0\CBProject-Converted.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\Chronobreak\Content\CBProject-Converted\obj\x86\Debug\net6.0\CBProject-Converted.AssemblyInfoInputs.cache
+D:\game\lol\Chronobreak\Content\CBProject-Converted\obj\x86\Debug\net6.0\CBProject-Converted.AssemblyInfo.cs
+D:\game\lol\Chronobreak\Content\CBProject-Converted\obj\x86\Debug\net6.0\CBProject-Converted.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+D:\game\lol\Chronobreak\Content\Chronobreak-Scripts\obj\Debug\net6.0\Chronobreak-Scripts.csproj.AssemblyReference.cache
+D:\game\lol\Chronobreak\Content\Chronobreak-Scripts\obj\Debug\net6.0\Chronobreak-Scripts.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\Chronobreak\Content\Chronobreak-Scripts\obj\Debug\net6.0\Chronobreak-Scripts.AssemblyInfoInputs.cache
+D:\game\lol\Chronobreak\Content\Chronobreak-Scripts\obj\Debug\net6.0\Chronobreak-Scripts.AssemblyInfo.cs
+D:\game\lol\Chronobreak\Content\Chronobreak-Scripts\obj\Debug\net6.0\Chronobreak-Scripts.csproj.CoreCompileInputs.cache

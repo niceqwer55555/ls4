@@ -1,0 +1,7 @@
+D:\game\lol\Chronobreak\GameServerConsole\obj\x86\Debug\net6.0\GameServerConsole.csproj.AssemblyReference.cache
+D:\game\lol\Chronobreak\GameServerConsole\obj\x86\Debug\net6.0\GameServerConsole.Properties.Resources.resources
+D:\game\lol\Chronobreak\GameServerConsole\obj\x86\Debug\net6.0\GameServerConsole.csproj.GenerateResource.cache
+D:\game\lol\Chronobreak\GameServerConsole\obj\x86\Debug\net6.0\GameServerConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\Chronobreak\GameServerConsole\obj\x86\Debug\net6.0\GameServerConsole.AssemblyInfoInputs.cache
+D:\game\lol\Chronobreak\GameServerConsole\obj\x86\Debug\net6.0\GameServerConsole.AssemblyInfo.cs
+D:\game\lol\Chronobreak\GameServerConsole\obj\x86\Debug\net6.0\GameServerConsole.csproj.CoreCompileInputs.cache

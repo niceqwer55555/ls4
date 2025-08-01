@@ -1,0 +1,1703 @@
+100 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+123 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+177 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+180 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+182 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+183 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+235 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+240 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+345 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+501 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+503 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+511 [.NET TP Worker] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+514 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_SC_Wuju_Trail.troy
+516 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Trail.troy
+517 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Wuju_Trail.troy
+519 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Trail.troy
+520 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_SC_Trail.troy
+522 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_Trail.troy
+523 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_SC_Wuju.troy
+525 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_tar.troy
+527 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Trail.troy
+529 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Wuju_Trail.troy
+531 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_dance_sound.troy
+533 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_death_sound.troy
+535 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_joke_sound.troy
+537 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_laugh_sound.troy
+539 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_generic.troy
+542 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_darius.troy
+547 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_singed.troy
+549 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_wukong.troy
+550 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_sound.troy
+553 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_buff.troy
+556 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_buf.troy
+559 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword1_buf.troy
+564 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword4_buf.troy
+566 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword1_buf.troy
+567 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword4_buf.troy
+568 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_tar.troy
+569 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_1.troy
+570 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_2.troy
+570 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_1.troy
+574 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_2.troy
+578 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_1.troy
+579 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_2.troy
+581 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_AP_Mis.troy
+582 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Cas.troy
+583 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Crit_tar.troy
+584 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_End.troy
+585 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Hit.troy
+587 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Mis.troy
+590 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar.troy
+593 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar_Mark.troy
+595 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_recall_start_sound.troy
+596 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf.troy
+597 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl2.troy
+598 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl3.troy
+599 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Cas.troy
+600 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_OnBuffKill.troy
+601 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Buf.troy
+604 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Cas.troy
+607 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Dmg.troy
+610 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_w_foley_sound.troy
+611 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_R_tar.troy
+612 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Blue.troy
+612 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Green.troy
+613 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Red.troy
+614 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Blue.troy
+614 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy
+615 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Blue.troy
+616 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy
+617 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Blue.troy
+617 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Yellow.troy
+619 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Wuju_SC_Attack1_Trail.troy
+796 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+836 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+839 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+845 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+847 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+884 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+888 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+892 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+894 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+901 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+901 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+906 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+918 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+919 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+923 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+924 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+924 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+925 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+925 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+926 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+927 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+929 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+929 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+930 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+933 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+935 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+936 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+936 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+937 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+939 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+956 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+957 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+961 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+964 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+969 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+970 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+973 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+974 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+978 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+985 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+986 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+994 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+997 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+1002 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+1003 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+1006 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+1008 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+1011 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+1015 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+1018 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MasterYi
+1022 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+1024 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+1026 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+1031 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+1032 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+1033 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+1034 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+1035 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+1036 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+1037 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+1038 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+1039 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+1040 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+1043 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+1048 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+1049 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+1050 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+1053 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+1066 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "yiglowblade.troy"!
+1070 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+1073 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1075 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1081 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1083 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1084 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1085 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+103 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+123 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+177 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+179 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+181 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+182 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+232 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+236 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+333 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+481 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+483 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+507 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - archersmark
+508 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashecritchance
+508 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashecritchanceready
+509 [.NET TP Worker] WARN Chronobreak.GameServer.Content.ContentManager (null) - ashetauntsejuani: Could not find SpellData for "ashetauntsejuani"
+509 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashetauntsejuani
+509 [.NET TP Worker] WARN Chronobreak.GameServer.Content.ContentManager (null) - ashetauntlissandra: Could not find SpellData for "ashetauntlissandra"
+509 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashetauntlissandra
+510 [.NET TP Worker] WARN Chronobreak.GameServer.Content.ContentManager (null) - threesisters: Could not find SpellData for "threesisters"
+510 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - threesisters
+511 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - focus
+511 [.NET TP Worker] WARN Chronobreak.GameServer.Content.ContentManager (null) - apbonusdamagetotowers: Could not find SpellData for "apbonusdamagetotowers"
+512 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - apbonusdamagetotowers
+512 [.NET TP Worker] WARN Chronobreak.GameServer.Content.ContentManager (null) - asherunspeed: Could not find SpellData for "asherunspeed"
+513 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - asherunspeed
+513 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - ashe
+517 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - archersmark_tar.troy
+518 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_BA_mis.troy
+520 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_E_mis.troy
+520 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_E_tar_explode.troy
+521 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_E_tar_linger.troy
+527 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_P_buf.troy
+528 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_P_Buf_Geo.troy
+530 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_P_buf_hands.troy
+531 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_Q_buf.troy
+532 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_Q_cas.troy
+533 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_Q_mis.troy
+535 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_Q_tar.troy
+536 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_R_mis.troy
+540 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_R_tar.troy
+545 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_W_mis.troy
+547 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Ashe_Base_W_tar.troy
+548 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - bowmaster_BasicAttack_tar.troy
+550 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - EnchantedCrystalArrow_eff2.troy
+551 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - EnchantedCrystalArrow_mis.troy
+728 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+767 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+770 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+776 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+778 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+810 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+814 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+817 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+819 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+829 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+830 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+831 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+840 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+844 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+845 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+846 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+847 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+848 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+849 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+851 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+855 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+855 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+857 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+857 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+859 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+860 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+861 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+861 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+862 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+863 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+880 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+882 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+882 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+886 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+888 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+889 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+892 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+894 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+895 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+897 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+900 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+903 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+910 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+911 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+914 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+916 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+920 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+921 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+923 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+925 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+928 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as Ashe
+932 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+934 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+935 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+935 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+936 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+936 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+937 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+938 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+939 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+940 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+941 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+942 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+946 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+946 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+950 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+950 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+952 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+956 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - frostshot
+959 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - volley
+962 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashespiritofthehawk
+965 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - enchantedcrystalarrow
+967 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - volleyattack
+968 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - frostarrow
+969 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashespiritofthehawkcast
+975 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashebasicattack
+978 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashebasicattack2
+982 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ashecritattack
+995 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+996 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1000 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1003 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1004 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1005 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1008 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+16816 [1] INFO PacketDefinitions420.PacketHandlerManager (null) - A peer is attempting a server Handshake
+16819 [1] INFO PacketDefinitions420.PacketHandlerManager (null) - Peer validated and assigned a new ClientId: 0
+16963 [1] DEBUG Chronobreak.GameServer.Packets.PacketHandlers.HandleSync (null) - Current map: 1
+16965 [1] DEBUG Chronobreak.GameServer.Packets.PacketHandlers.HandleSync (null) - Accepted client version (Version 4.20.0.315 [PUBLIC]) from client = 0 & PlayerID = 1
+29151 [1] DEBUG Chronobreak.GameServer.Packets.PacketHandlers.HandleSpawn (null) - Spawning map
+31882 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - blue_minion_basic
+31885 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - FeelNoPain_eff.troy
+31885 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretshield: Could not find SpellData for "turretshield"
+31889 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretshield
+31890 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - structuredamagereduction: Could not find SpellData for "structuredamagereduction"
+31891 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - structuredamagereduction
+31893 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - superminionbuff_blue
+31893 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - blue_minion_mechmelee
+31896 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - promotemebuff
+31898 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - blue_minion_mechcannon
+31903 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - blue_minion_wizard
+31905 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - red_minion_basic
+31907 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - superminionbuff_red
+31908 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - red_minion_mechmelee
+31910 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - red_minion_mechcannon
+31911 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - red_minion_wizard
+31914 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - respawnclassic
+31915 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - spellshieldmarker: Could not find SpellData for "spellshieldmarker"
+31918 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - spellshieldmarker
+31931 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - lizard
+31934 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - dragonburning
+31936 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - grievouswound
+31937 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - resistantskindragon: Could not find SpellData for "resistantskindragon"
+31938 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - resistantskindragon
+31939 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - monsterminiondamageamp: Could not find SpellData for "monsterminiondamageamp"
+31939 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monsterminiondamageamp
+31940 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - dragon
+31942 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - agitatedidle: Could not find SpellData for "agitatedidle"
+31942 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - agitatedidle
+31943 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - regenerationruneaura: Could not find SpellData for "regenerationruneaura"
+31944 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - regenerationruneaura
+31947 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - golem
+31950 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - wolf
+31952 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ancientgoleminitialattack
+31954 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - crestoftheancientgolem
+31955 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - ancientgolemattackswap: Could not find SpellData for "ancientgolemattackswap"
+31956 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ancientgolemattackswap
+31956 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - ancientgolem
+31958 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - lesserwraith
+31960 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - giantwolf
+31964 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderinitialattack
+31966 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blessingofthelizardelder
+31966 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - lizardelderattackswap: Could not find SpellData for "lizardelderattackswap"
+31967 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderattackswap
+31968 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - lizardelder
+31969 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - younglizard
+31971 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - wraith
+31973 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - resistantskin: Could not find SpellData for "resistantskin"
+31974 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - resistantskin
+31974 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - wormrecouperateon: Could not find SpellData for "wormrecouperateon"
+31975 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wormrecouperateon
+31976 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - actiontimer: Could not find SpellData for "actiontimer"
+31979 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - actiontimer
+31981 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - wrathtimer: Could not find SpellData for "wrathtimer"
+31982 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wrathtimer
+31982 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - wrathcooldown: Could not find SpellData for "wrathcooldown"
+31983 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wrathcooldown
+31983 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - sweeptimer: Could not find SpellData for "sweeptimer"
+31984 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - sweeptimer
+31985 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - propeltimer: Could not find SpellData for "propeltimer"
+31985 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - propeltimer
+31985 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - actiontimer2: Could not find SpellData for "actiontimer2"
+31988 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - actiontimer2
+31988 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - wormcooldown: Could not find SpellData for "wormcooldown"
+31989 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wormcooldown
+31989 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - worm
+31991 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - smallgolem
+31996 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - greatwraith
+32392 [1] DEBUG Chronobreak.GameServer.Packets.PacketHandlers.HandleScoreboard (null) - Player Test has looked at the scoreboard.
+39299 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1055
+40169 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2003
+40175 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - regenerationpotion
+41003 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - trinkettotemlvl2
+41005 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - dummywardtracker: Could not find SpellData for "dummywardtracker"
+41009 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - dummywardtracker
+41010 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 3340
+41012 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - trinkettotemlvl1
+41014 [1] WARN Chronobreak.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: ItemPassives.ItemID_3340
+41884 [1] ERROR Chronobreak.GameServer.Scripting.Lua.LuaScriptEngine (null) - An attempt was made to access an uninitialized global variable "orderTurret"
+41889 [1] ERROR Chronobreak.GameServer.Scripting.Lua.LuaScriptEngine (null) - An attempt was made to access an uninitialized global variable "chaosTurret"
+121903 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_basicbasicattack
+121907 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_basicbasicattack2
+121914 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_basicbasicattack3
+121924 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - red_minion_basicbasicattack
+124401 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_wizardbasicattack
+124406 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_wizardbasicattack2
+124410 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - red_minion_wizardbasicattack
+146903 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ancientgolembasicattack
+146919 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - NeutralMonster_buf_blue_defense.troy
+146922 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - younglizardbasicattack
+146927 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderbasicattack
+146932 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderbasicattack2
+146935 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderbasicattack3
+146961 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderbasicattack4
+146980 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - NeutralMonster_buf_red_offense.troy
+148638 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - bowmaster_BasicAttack_tar.troy
+156923 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - giantwolfbasicattack
+156929 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wolfbasicattack
+156934 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wraithbasicattack
+156939 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lesserwraithbasicattack
+156943 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - smallgolembasicattack
+156953 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - golembasicattack
+157008 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - greatwraithbasicattack
+181918 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - dragonbasicattack
+185337 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_mechcannonbasicattack
+185342 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_mechcannonbasicattack2
+185347 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - red_minion_mechcannonbasicattack
+198896 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Summoner_Flashback.troy
+198899 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Summoner_Cast.troy
+198905 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Summoner_Flash.troy
+222311 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - testcuberender
+222315 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - testcuberenderbasicattack: Could not find SpellData for "testcuberenderbasicattack"
+222319 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - testcuberenderbasicattack
+222324 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monsterregenspell
+222918 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - VampHeal.troy
+222923 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - Meditate_eff.troy
+226398 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - TeleportHome.troy
+233958 [1] DEBUG GameServerLib.GameObjects.Experience (null) - Experience Owner Test leveled up to 2
+234410 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - teleportarrive.troy
+242596 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "bowmaster_frosthawk_terminate.troy"!
+242598 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "bowmaster_frosthawk_terminate_02.troy"!
+346601 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1042
+390473 [1] DEBUG GameServerLib.GameObjects.Experience (null) - Experience Owner Test leveled up to 3
+469144 [1] DEBUG GameServerLib.GameObjects.Experience (null) - Experience Owner Test leveled up to 4
+498287 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1051
+526578 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 3086
+620422 [1] DEBUG GameServerLib.GameObjects.Experience (null) - Experience Owner Test leveled up to 5
+802023 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "bowmaster_frosthawk_terminate.troy"!
+802028 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "bowmaster_frosthawk_terminate_02.troy"!
+845224 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - avariceblade: Could not find SpellData for "avariceblade"
+845226 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - avariceblade
+845229 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - goldpertencounter: Could not find SpellData for "goldpertencounter"
+845229 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - goldpertencounter
+845230 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 3093
+845232 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - archangelsdummyspell
+877832 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - itemstatikshank
+877834 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 3087
+879156 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 3046
+879159 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1018
+880230 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - itembloodthirsteroverheal: Could not find SpellData for "itembloodthirsteroverheal"
+880232 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - itembloodthirsteroverheal
+880235 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 3072
+880236 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1053
+880238 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1038
+880239 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1036
+880240 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - bloodthirsterdummyspell
+881352 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - lastwhisper: Could not find SpellData for "lastwhisper"
+881354 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lastwhisper
+881357 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 3035
+881359 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1037
+892994 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - infinityedge: Could not find SpellData for "infinityedge"
+892997 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - infinityedge
+893000 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 3031
+917388 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 1001
+931941 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - sweepingblow
+931950 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - propel
+931953 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wrathoftheancients
+931970 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wormattack
+931985 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wormbasicattack
+950948 [1] DEBUG GameServerLib.GameObjects.Experience (null) - Experience Owner Test leveled up to 6
+1136463 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+1136465 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(
+105 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+132 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+188 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+190 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+191 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+192 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+239 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+243 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+335 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+517 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+519 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+527 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+531 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_SC_Wuju_Trail.troy
+531 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Trail.troy
+532 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Wuju_Trail.troy
+533 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Trail.troy
+534 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_SC_Trail.troy
+534 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_Trail.troy
+535 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_SC_Wuju.troy
+536 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_tar.troy
+537 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Trail.troy
+537 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Wuju_Trail.troy
+538 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_dance_sound.troy
+538 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_death_sound.troy
+540 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_joke_sound.troy
+541 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_laugh_sound.troy
+542 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_generic.troy
+542 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_darius.troy
+543 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_singed.troy
+544 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_wukong.troy
+545 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_sound.troy
+546 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_buff.troy
+547 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_buf.troy
+548 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword1_buf.troy
+553 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword4_buf.troy
+554 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword1_buf.troy
+556 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword4_buf.troy
+556 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_tar.troy
+557 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_1.troy
+558 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_2.troy
+559 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_1.troy
+560 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_2.troy
+561 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_1.troy
+562 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_2.troy
+563 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_AP_Mis.troy
+565 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Cas.troy
+568 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Crit_tar.troy
+571 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_End.troy
+572 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Hit.troy
+573 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Mis.troy
+574 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar.troy
+575 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar_Mark.troy
+576 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_recall_start_sound.troy
+577 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf.troy
+578 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl2.troy
+579 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl3.troy
+582 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Cas.troy
+584 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_OnBuffKill.troy
+588 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Buf.troy
+590 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Cas.troy
+591 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Dmg.troy
+592 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_w_foley_sound.troy
+593 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_R_tar.troy
+593 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Blue.troy
+594 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Green.troy
+595 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Red.troy
+601 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Blue.troy
+602 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy
+602 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Blue.troy
+603 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy
+604 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Blue.troy
+605 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Yellow.troy
+606 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Wuju_SC_Attack1_Trail.troy
+803 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+846 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+848 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+851 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+852 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+890 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+893 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+896 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+900 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+905 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+906 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+907 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+920 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+920 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+921 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+922 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+923 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+925 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+929 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+931 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+931 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+932 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+933 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+933 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+933 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+935 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+936 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+936 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+937 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+938 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+959 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+959 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+964 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+965 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+967 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+969 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+971 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+973 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+976 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+977 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+979 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+988 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+989 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+993 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+994 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+997 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+998 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+999 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+1000 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+1003 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MasterYi
+1007 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+1008 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+1009 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+1010 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+1010 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+1011 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+1012 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+1013 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+1015 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+1015 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+1016 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+1017 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+1020 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+1023 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+1023 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+1024 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+1024 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+1027 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+1040 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "yiglowblade.troy"!
+1044 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+1045 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1047 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1051 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1052 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1056 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1057 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+57084 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+57090 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(
+100 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+122 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+174 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+175 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+177 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+177 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+224 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+228 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+320 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+500 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+501 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+510 [.NET TP Worker] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+512 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_SC_Wuju_Trail.troy
+513 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Trail.troy
+515 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Wuju_Trail.troy
+516 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Trail.troy
+517 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_SC_Trail.troy
+519 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_Trail.troy
+519 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_SC_Wuju.troy
+521 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_tar.troy
+521 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Trail.troy
+521 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Wuju_Trail.troy
+523 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_dance_sound.troy
+524 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_death_sound.troy
+525 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_joke_sound.troy
+525 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_laugh_sound.troy
+526 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_generic.troy
+527 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_darius.troy
+528 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_singed.troy
+529 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_wukong.troy
+530 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_sound.troy
+530 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_buff.troy
+532 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_buf.troy
+533 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword1_buf.troy
+538 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword4_buf.troy
+539 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword1_buf.troy
+541 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword4_buf.troy
+541 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_tar.troy
+542 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_1.troy
+543 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_2.troy
+544 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_1.troy
+544 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_2.troy
+545 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_1.troy
+546 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_2.troy
+547 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_AP_Mis.troy
+547 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Cas.troy
+550 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Crit_tar.troy
+553 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_End.troy
+555 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Hit.troy
+556 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Mis.troy
+557 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar.troy
+558 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar_Mark.troy
+559 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_recall_start_sound.troy
+559 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf.troy
+560 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl2.troy
+561 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl3.troy
+562 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Cas.troy
+563 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_OnBuffKill.troy
+564 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Buf.troy
+566 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Cas.troy
+569 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Dmg.troy
+572 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_w_foley_sound.troy
+573 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_R_tar.troy
+573 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Blue.troy
+574 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Green.troy
+575 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Red.troy
+575 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Blue.troy
+576 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy
+577 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Blue.troy
+578 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy
+578 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Blue.troy
+579 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Yellow.troy
+580 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Wuju_SC_Attack1_Trail.troy
+789 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+829 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+832 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+838 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+839 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+876 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+881 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+884 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+885 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+891 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+891 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+892 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+905 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+906 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+907 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+907 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+908 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+909 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+911 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+914 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+915 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+915 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+918 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+918 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+919 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+920 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+921 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+921 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+922 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+925 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+943 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+944 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+947 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+950 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+952 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+953 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+956 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+959 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+962 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+964 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+966 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+968 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+975 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+977 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+982 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+984 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+986 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+989 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+993 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+994 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+997 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MasterYi
+1002 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+1005 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+1007 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+1008 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+1009 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+1010 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+1011 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+1012 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+1013 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+1013 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+1014 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+1015 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+1016 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+1017 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+1017 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+1020 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+1023 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+1026 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+1039 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "yiglowblade.troy"!
+1043 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+1045 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1046 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1051 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1053 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1055 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1057 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+58052 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+58053 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(
+99 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+120 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+174 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+176 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+177 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+178 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+224 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+228 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+323 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+501 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+504 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+514 [.NET TP Worker] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+517 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_SC_Wuju_Trail.troy
+518 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Trail.troy
+519 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Wuju_Trail.troy
+520 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Trail.troy
+522 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_SC_Trail.troy
+523 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_Trail.troy
+524 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_SC_Wuju.troy
+526 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_tar.troy
+529 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Trail.troy
+530 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Wuju_Trail.troy
+532 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_dance_sound.troy
+534 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_death_sound.troy
+536 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_joke_sound.troy
+538 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_laugh_sound.troy
+540 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_generic.troy
+541 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_darius.troy
+543 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_singed.troy
+547 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_wukong.troy
+551 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_sound.troy
+553 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_buff.troy
+555 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_buf.troy
+556 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword1_buf.troy
+559 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword4_buf.troy
+562 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword1_buf.troy
+566 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword4_buf.troy
+568 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_tar.troy
+570 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_1.troy
+572 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_2.troy
+574 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_1.troy
+578 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_2.troy
+583 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_1.troy
+585 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_2.troy
+587 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_AP_Mis.troy
+589 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Cas.troy
+593 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Crit_tar.troy
+596 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_End.troy
+600 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Hit.troy
+602 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Mis.troy
+604 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar.troy
+607 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar_Mark.troy
+610 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_recall_start_sound.troy
+613 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf.troy
+615 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl2.troy
+617 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl3.troy
+619 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Cas.troy
+620 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_OnBuffKill.troy
+621 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Buf.troy
+623 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Cas.troy
+627 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Dmg.troy
+628 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_w_foley_sound.troy
+628 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_R_tar.troy
+629 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Blue.troy
+630 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Green.troy
+631 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Red.troy
+632 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Blue.troy
+633 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy
+634 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Blue.troy
+634 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy
+635 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Blue.troy
+635 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Yellow.troy
+636 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Wuju_SC_Attack1_Trail.troy
+814 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+856 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+858 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+861 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+863 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+900 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+904 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+907 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+909 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+915 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+917 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+920 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+933 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+936 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+940 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+941 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+942 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+943 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+944 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+945 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+947 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+947 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+949 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+953 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+956 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+956 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+957 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+958 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+959 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+960 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+975 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+976 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+979 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+987 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+989 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+991 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+993 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+995 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+998 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+1003 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+1006 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+1007 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+1014 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+1019 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+1022 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+1023 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+1025 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+1026 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+1029 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+1030 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+1036 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MasterYi
+1039 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+1041 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+1042 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+1045 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+1045 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+1050 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+1051 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+1052 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+1053 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+1054 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+1054 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+1055 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+1055 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+1056 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+1057 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+1057 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+1058 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+1063 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+1075 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "yiglowblade.troy"!
+1078 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+1080 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1083 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1086 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1087 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1088 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1089 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+58579 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+58586 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(
+105 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+127 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+183 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+185 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+186 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+187 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+238 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+241 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+341 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+519 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+521 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+530 [.NET TP Worker] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+533 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_SC_Wuju_Trail.troy
+534 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Trail.troy
+534 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Wuju_Trail.troy
+536 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Trail.troy
+537 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_SC_Trail.troy
+539 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_Trail.troy
+540 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_SC_Wuju.troy
+542 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_tar.troy
+544 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Trail.troy
+544 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Wuju_Trail.troy
+546 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_dance_sound.troy
+547 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_death_sound.troy
+547 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_joke_sound.troy
+549 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_laugh_sound.troy
+550 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_generic.troy
+550 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_darius.troy
+551 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_singed.troy
+551 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_wukong.troy
+552 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_sound.troy
+554 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_buff.troy
+555 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_buf.troy
+555 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword1_buf.troy
+556 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword4_buf.troy
+556 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword1_buf.troy
+557 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword4_buf.troy
+563 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_tar.troy
+565 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_1.troy
+566 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_2.troy
+567 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_1.troy
+568 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_2.troy
+569 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_1.troy
+570 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_2.troy
+571 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_AP_Mis.troy
+572 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Cas.troy
+572 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Crit_tar.troy
+573 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_End.troy
+578 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Hit.troy
+579 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Mis.troy
+582 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar.troy
+583 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar_Mark.troy
+584 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_recall_start_sound.troy
+585 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf.troy
+585 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl2.troy
+589 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl3.troy
+589 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Cas.troy
+592 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_OnBuffKill.troy
+593 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Buf.troy
+596 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Cas.troy
+597 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Dmg.troy
+597 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_w_foley_sound.troy
+598 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_R_tar.troy
+599 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Blue.troy
+599 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Green.troy
+600 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Red.troy
+600 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Blue.troy
+601 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy
+601 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Blue.troy
+602 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy
+602 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Blue.troy
+604 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Yellow.troy
+604 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Wuju_SC_Attack1_Trail.troy
+803 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+846 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+849 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+855 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+856 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+894 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+898 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+901 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+902 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+908 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+910 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+913 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+925 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+925 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+926 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+929 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+930 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+931 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+931 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+933 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+933 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+934 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+935 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+936 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+937 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+941 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+943 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+943 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+945 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+946 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+962 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+963 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+967 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+969 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+975 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+977 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+979 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+983 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+987 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+991 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+993 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+999 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+1002 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+1008 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+1010 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+1012 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+1013 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+1015 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+1017 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+1022 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MasterYi
+1026 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+1027 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+1028 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+1029 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+1029 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+1030 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+1031 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+1033 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+1037 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+1038 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+1039 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+1039 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+1040 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+1040 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+1041 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+1041 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+1042 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+1045 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+1059 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "yiglowblade.troy"!
+1062 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+1065 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1068 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1073 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1074 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1075 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1076 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+59229 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+59230 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(
+105 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+127 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+183 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+186 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+188 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+189 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+239 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+244 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+346 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+513 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+514 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+521 [.NET TP Worker] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+524 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_SC_Wuju_Trail.troy
+525 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Trail.troy
+526 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Wuju_Trail.troy
+527 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Trail.troy
+528 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_SC_Trail.troy
+528 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_Trail.troy
+529 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_SC_Wuju.troy
+529 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_tar.troy
+530 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Trail.troy
+530 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Wuju_Trail.troy
+530 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_dance_sound.troy
+531 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_death_sound.troy
+532 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_joke_sound.troy
+536 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_laugh_sound.troy
+537 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_generic.troy
+540 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_darius.troy
+541 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_singed.troy
+543 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_wukong.troy
+544 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_sound.troy
+545 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_buff.troy
+546 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_buf.troy
+547 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword1_buf.troy
+548 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword4_buf.troy
+549 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword1_buf.troy
+553 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword4_buf.troy
+555 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_tar.troy
+556 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_1.troy
+557 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_2.troy
+558 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_1.troy
+559 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_2.troy
+560 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_1.troy
+561 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_2.troy
+562 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_AP_Mis.troy
+562 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Cas.troy
+563 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Crit_tar.troy
+564 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_End.troy
+565 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Hit.troy
+568 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Mis.troy
+571 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar.troy
+572 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar_Mark.troy
+573 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_recall_start_sound.troy
+574 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf.troy
+576 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl2.troy
+577 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl3.troy
+577 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Cas.troy
+578 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_OnBuffKill.troy
+579 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Buf.troy
+580 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Cas.troy
+581 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Dmg.troy
+584 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_w_foley_sound.troy
+587 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_R_tar.troy
+588 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Blue.troy
+589 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Green.troy
+590 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Red.troy
+591 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Blue.troy
+592 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy
+593 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Blue.troy
+594 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy
+595 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Blue.troy
+596 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Yellow.troy
+596 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Wuju_SC_Attack1_Trail.troy
+780 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+827 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+830 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+834 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+837 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+880 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+886 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+889 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+889 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+896 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+896 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+897 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+907 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+911 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+912 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+913 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+916 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+919 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+920 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+921 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+921 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+922 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+923 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+923 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+924 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+925 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+926 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+926 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+927 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+928 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+945 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+945 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+947 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+948 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+953 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+954 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+956 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+957 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+959 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+960 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+964 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+966 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+972 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+973 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+977 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+978 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+982 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+984 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+985 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+988 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MasterYi
+992 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+995 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+995 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+999 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+999 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+1001 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+1001 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+1002 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+1003 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+1004 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+1004 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+1005 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+1005 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+1006 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+1010 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+1012 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+1013 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+1016 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+1029 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "yiglowblade.troy"!
+1032 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+1033 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1035 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1039 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1040 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1044 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1045 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+58037 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+58037 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(
+105 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+128 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+181 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+184 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+185 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+186 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+236 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+240 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+337 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+500 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+501 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+524 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - monkeykingclone
+529 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - monkeykingflying
+532 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - apbonusdamagetotowers: Could not find SpellData for "apbonusdamagetotowers"
+533 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - apbonusdamagetotowers
+534 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - monkeykingdeathparticle: Could not find SpellData for "monkeykingdeathparticle"
+534 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdeathparticle
+535 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - monkeyking
+743 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+784 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+787 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+791 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+793 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+828 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+831 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+835 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+837 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+843 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+844 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+845 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+853 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+854 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+858 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+859 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+860 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+860 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+861 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+862 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+863 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+864 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+864 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+865 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+866 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+871 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+872 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+872 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+873 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+874 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+889 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+891 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+891 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+897 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+902 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+904 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+906 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+907 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+910 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+912 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+914 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+916 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+921 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+922 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+937 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+939 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+943 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+946 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+962 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+963 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+969 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MonkeyKing
+972 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+973 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+975 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+976 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+978 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+982 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+983 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+984 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+985 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+985 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+986 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+987 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+987 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+988 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+989 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+989 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+996 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdoubleattack
+998 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdecoy
+1001 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingnimbus
+1003 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingspintowin
+1005 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdoubleattackhit
+1006 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdecoyswipe
+1011 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingqattack
+1012 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingpassive
+1016 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingbasicattack
+1017 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingbasicattack2
+1019 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingcritattack
+1033 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+1035 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1037 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1042 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1045 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1046 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1048 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+58549 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+58555 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(
+101 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+125 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+177 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+179 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+181 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+181 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+229 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+234 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+327 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+482 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+484 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+505 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - monkeykingclone
+505 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - monkeykingflying
+513 [.NET TP Worker] WARN Chronobreak.GameServer.Content.ContentManager (null) - apbonusdamagetotowers: Could not find SpellData for "apbonusdamagetotowers"
+514 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - apbonusdamagetotowers
+515 [.NET TP Worker] WARN Chronobreak.GameServer.Content.ContentManager (null) - monkeykingdeathparticle: Could not find SpellData for "monkeykingdeathparticle"
+516 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdeathparticle
+517 [.NET TP Worker] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - monkeyking
+694 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+732 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+734 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+738 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+740 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+772 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+777 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+782 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+784 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+791 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+793 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+797 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+806 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+809 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+813 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+814 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+816 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+817 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+818 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+818 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+820 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+820 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+822 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+824 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+825 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+828 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+829 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+831 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+831 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+833 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+847 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+849 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+853 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+859 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+862 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+864 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+866 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+868 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+869 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+876 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+878 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+879 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+881 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+882 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+897 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+899 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+905 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+908 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+916 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+918 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+925 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MonkeyKing
+928 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+930 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+931 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+933 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+934 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+938 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+939 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+940 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+941 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+942 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+943 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+943 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+944 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+944 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+945 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+946 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+946 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+950 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdoubleattack
+951 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdecoy
+954 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingnimbus
+955 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingspintowin
+957 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdoubleattackhit
+958 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingdecoyswipe
+959 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingqattack
+960 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingpassive
+960 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingbasicattack
+961 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingbasicattack2
+962 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monkeykingcritattack
+977 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+980 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+987 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+988 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+990 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+991 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+16634 [1] INFO PacketDefinitions420.PacketHandlerManager (null) - A peer is attempting a server Handshake
+16638 [1] INFO PacketDefinitions420.PacketHandlerManager (null) - Peer validated and assigned a new ClientId: 0
+16803 [1] DEBUG Chronobreak.GameServer.Packets.PacketHandlers.HandleSync (null) - Current map: 1
+16805 [1] DEBUG Chronobreak.GameServer.Packets.PacketHandlers.HandleSync (null) - Accepted client version (Version 4.20.0.315 [PUBLIC]) from client = 0 & PlayerID = 1
+28283 [1] DEBUG Chronobreak.GameServer.Packets.PacketHandlers.HandleSpawn (null) - Spawning map
+30943 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - blue_minion_basic
+30950 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - FeelNoPain_eff.troy
+30952 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretshield: Could not find SpellData for "turretshield"
+30952 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretshield
+30953 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - structuredamagereduction: Could not find SpellData for "structuredamagereduction"
+30954 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - structuredamagereduction
+30955 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - superminionbuff_blue
+30956 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - blue_minion_mechmelee
+30958 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - promotemebuff
+30960 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - blue_minion_mechcannon
+30965 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - blue_minion_wizard
+30969 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - red_minion_basic
+30971 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - superminionbuff_red
+30972 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - red_minion_mechmelee
+30975 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - red_minion_mechcannon
+30978 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - red_minion_wizard
+30981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - respawnclassic
+30982 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - spellshieldmarker: Could not find SpellData for "spellshieldmarker"
+30983 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - spellshieldmarker
+30993 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - lizard
+30997 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - dragonburning
+30998 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - grievouswound
+30999 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - resistantskindragon: Could not find SpellData for "resistantskindragon"
+31000 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - resistantskindragon
+31001 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - monsterminiondamageamp: Could not find SpellData for "monsterminiondamageamp"
+31002 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - monsterminiondamageamp
+31002 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - dragon
+31004 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - agitatedidle: Could not find SpellData for "agitatedidle"
+31005 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - agitatedidle
+31006 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - regenerationruneaura: Could not find SpellData for "regenerationruneaura"
+31008 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - regenerationruneaura
+31011 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - golem
+31012 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - wolf
+31015 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ancientgoleminitialattack
+31016 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - crestoftheancientgolem
+31017 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - ancientgolemattackswap: Could not find SpellData for "ancientgolemattackswap"
+31018 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ancientgolemattackswap
+31019 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - ancientgolem
+31021 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - lesserwraith
+31026 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - giantwolf
+31029 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderinitialattack
+31030 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blessingofthelizardelder
+31031 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - lizardelderattackswap: Could not find SpellData for "lizardelderattackswap"
+31032 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderattackswap
+31032 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - lizardelder
+31035 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - younglizard
+31036 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - wraith
+31038 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - resistantskin: Could not find SpellData for "resistantskin"
+31040 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - resistantskin
+31043 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - wormrecouperateon: Could not find SpellData for "wormrecouperateon"
+31044 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wormrecouperateon
+31045 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - actiontimer: Could not find SpellData for "actiontimer"
+31046 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - actiontimer
+31046 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - wrathtimer: Could not find SpellData for "wrathtimer"
+31047 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wrathtimer
+31048 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - wrathcooldown: Could not find SpellData for "wrathcooldown"
+31048 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wrathcooldown
+31049 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - sweeptimer: Could not find SpellData for "sweeptimer"
+31050 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - sweeptimer
+31050 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - propeltimer: Could not find SpellData for "propeltimer"
+31051 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - propeltimer
+31052 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - actiontimer2: Could not find SpellData for "actiontimer2"
+31053 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - actiontimer2
+31053 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - wormcooldown: Could not find SpellData for "wormcooldown"
+31057 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wormcooldown
+31059 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - worm
+31061 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - smallgolem
+31062 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - greatwraith
+31203 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeykingclone.troy"!
+31206 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - LeBlanc_MirrorImagePoof.troy
+31476 [1] DEBUG Chronobreak.GameServer.Packets.PacketHandlers.HandleScoreboard (null) - Player Test has looked at the scoreboard.
+40944 [1] ERROR Chronobreak.GameServer.Scripting.Lua.LuaScriptEngine (null) - An attempt was made to access an uninitialized global variable "orderTurret"
+40946 [1] ERROR Chronobreak.GameServer.Scripting.Lua.LuaScriptEngine (null) - An attempt was made to access an uninitialized global variable "chaosTurret"
+43876 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - xenZiou_battle_cry_weapon_01.troy
+120960 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_basicbasicattack
+120965 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_basicbasicattack2
+120978 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_basicbasicattack3
+120985 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - red_minion_basicbasicattack
+123470 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_wizardbasicattack
+123475 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_wizardbasicattack2
+123477 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - red_minion_wizardbasicattack
+144721 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkey_king_crushingblow_armor_debuff.troy"!
+144725 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkey_king_crushingblow_tar.troy"!
+145972 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - ancientgolembasicattack
+145982 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - NeutralMonster_buf_blue_defense.troy
+145999 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - younglizardbasicattack
+146001 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderbasicattack
+146013 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderbasicattack2
+146015 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderbasicattack3
+146074 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lizardelderbasicattack4
+146078 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - NeutralMonster_buf_red_offense.troy
+155951 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - giantwolfbasicattack
+155963 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wolfbasicattack
+155968 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - wraithbasicattack
+155971 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - lesserwraithbasicattack
+155981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - smallgolembasicattack
+156011 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - golembasicattack
+156017 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - greatwraithbasicattack
+156020 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkey_king_crushingblow_armor_debuff.troy"!
+156057 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkey_king_crushingblow_tar.troy"!
+180961 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - dragonbasicattack
+181302 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkey_king_crushingblow_armor_debuff.troy"!
+181308 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkey_king_crushingblow_tar.troy"!
+184433 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_mechcannonbasicattack
+184438 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - blue_minion_mechcannonbasicattack2
+184442 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - red_minion_mechcannonbasicattack
+191853 [1] DEBUG GameServerLib.GameObjects.Experience (null) - Experience Owner Test leveled up to 2
+194535 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_copy.troy"!
+194831 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeykingclone.troy"!
+196051 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_cas_team_id_green.troy"!
+196056 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_cas_team_id_green.troy"!
+196056 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_cas_team_id_red.troy"!
+196068 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_cas_team_id_red.troy"!
+196659 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_death_team_id_green.troy"!
+196661 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_death_team_id_red.troy"!
+197347 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "cassiopeiadeath.troy"!
+215708 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_copy.troy"!
+216091 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeykingclone.troy"!
+217303 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_cas_team_id_green.troy"!
+217306 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_cas_team_id_green.troy"!
+217316 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_cas_team_id_red.troy"!
+217316 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_cas_team_id_red.troy"!
+218036 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_death_team_id_green.troy"!
+218039 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkeyking_w_death_team_id_red.troy"!
+218623 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "cassiopeiadeath.troy"!
+223711 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkey_king_crushingblow_armor_debuff.troy"!
+223715 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "monkey_king_crushingblow_tar.troy"!
+242710 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+242712 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(
+109 [1] DEBUG Chronobreak.GameServerConsole.Program (null) - Chronobreak Build: Aatrox 0.1 Chronobreak Build 2025/7/25 12:33:44 UTC
+131 [1] INFO Chronobreak.GameServer.Config (null) - PARSING CONFIG
+187 [1] INFO Chronobreak.GameServer.Game (null) - Creating GameServer Instance...
+189 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: ScriptsCore.dll
+191 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: CBProject-Converted.dll
+191 [1] INFO Chronobreak.GameServer.Core.AssemblyService (null) - Successfully loaded assembly: Chronobreak-Scripts.dll
+243 [1] INFO Chronobreak.GameServer.Game (null) - Loading Server Content...
+247 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loading Server Content...
+348 [1] INFO GameServerLib.Content.ContentLoader (null) - Loaded ContentCache.json!
+533 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerflash
+535 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - summonerheal
+542 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+546 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_SC_Wuju_Trail.troy
+548 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Trail.troy
+550 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA1_Wuju_Trail.troy
+551 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Trail.troy
+552 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_SC_Trail.troy
+553 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_BA2_Wuju_Trail.troy
+555 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_SC_Wuju.troy
+556 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_tar.troy
+557 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Trail.troy
+559 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Crit_Wuju_Trail.troy
+561 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_dance_sound.troy
+562 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_death_sound.troy
+566 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_joke_sound.troy
+572 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_laugh_sound.troy
+574 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_generic.troy
+575 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_darius.troy
+577 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_singed.troy
+578 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_interactive_wukong.troy
+580 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_emote_taunt_sound.troy
+586 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_buff.troy
+587 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_buf.troy
+588 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword1_buf.troy
+589 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_SuperChraged_Sword4_buf.troy
+590 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword1_buf.troy
+591 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_E_Sword4_buf.troy
+592 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_tar.troy
+593 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_1.troy
+594 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Trail_2.troy
+595 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_1.troy
+602 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_SC_Trail_2.troy
+602 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_1.troy
+604 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_P_Wuju_Trail_2.troy
+605 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_AP_Mis.troy
+605 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Cas.troy
+606 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Crit_tar.troy
+607 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_End.troy
+608 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Hit.troy
+609 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Mis.troy
+611 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar.troy
+618 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_Q_Tar_Mark.troy
+619 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_recall_start_sound.troy
+620 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf.troy
+620 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl2.troy
+621 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Buf_Lvl3.troy
+622 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_Cas.troy
+623 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_R_OnBuffKill.troy
+624 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Buf.troy
+625 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Cas.troy
+625 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Base_W_Dmg.troy
+632 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - masteryi_base_w_foley_sound.troy
+634 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_R_tar.troy
+635 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Blue.troy
+636 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Green.troy
+636 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Skin02_Glow_Sword_Red.troy
+637 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Blue.troy
+638 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy
+639 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Blue.troy
+639 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy
+640 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Blue.troy
+641 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Tribal_Wuju_Sword_Yellow.troy
+647 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Particle - MasterYi_Wuju_SC_Attack1_Trail.troy
+806 [1] WARN Chronobreak.GameServer.Content.INIContentFile (null) - File "../../../../Content/GameClient\LEVELS/Map1/DeathTimes.ini" doesn't exist!
+847 [1] INFO Chronobreak.GameServer.Game (null) - GameServer Ready!
+850 [1] INFO Chronobreak.GameServerConsole.Program (null) - Game started on port: 5119
+855 [1] INFO Chronobreak.GameServerConsole.Program (null) - Server is ready, clients can now connect.
+857 [1] INFO Chronobreak.GameServer.Game (null) - Starting GameServer...
+895 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - yonkey
+899 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - basespell
+902 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - yonkeybasicattack: Could not find SpellData for "yonkeybasicattack"
+903 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - yonkeybasicattack
+909 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - shopmale
+909 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - shopmalebasicattack: Could not find SpellData for "shopmalebasicattack"
+915 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - shopmalebasicattack
+925 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonus: Could not find SpellData for "turretbonus"
+926 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonus
+927 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretbonushealth: Could not find SpellData for "turretbonushealth"
+932 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretbonushealth
+933 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretchampiondelta: Could not find SpellData for "turretchampiondelta"
+933 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretchampiondelta
+934 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretassistmanager: Could not find SpellData for "turretassistmanager"
+934 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretassistmanager
+935 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - srturretdamagemanager: Could not find SpellData for "srturretdamagemanager"
+936 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - srturretdamagemanager
+937 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretglowparticle: Could not find SpellData for "turretglowparticle"
+938 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretglowparticle
+941 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretpackage: Could not find SpellData for "turretpackage"
+943 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretpackage
+945 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - outerturretbonus: Could not find SpellData for "outerturretbonus"
+946 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - outerturretbonus
+946 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal
+948 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormalbasicattack
+963 [1] WARN Chronobreak.GameServer.Content.ContentManager (null) - turretprebonus: Could not find SpellData for "turretprebonus"
+965 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - turretprebonus
+967 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretnormal2
+968 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretnormal2basicattack
+972 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretdragon
+974 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretdragonbasicattack
+980 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm
+981 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretwormbasicattack
+984 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretworm2
+985 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretworm2basicattack
+989 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretgiant
+992 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretgiantbasicattack
+1000 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretangel
+1003 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretangelbasicattack
+1007 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretnormal
+1009 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretnormalbasicattack
+1012 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - orderturretshrine
+1014 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - orderturretshrinebasicattack
+1016 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Character - chaosturretshrine
+1019 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - chaosturretshrinebasicattack
+1025 [1] INFO Chronobreak.GameServer.PlayerManager (null) - Player: Test added as MasterYi
+1029 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4111
+1031 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4112
+1032 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4114
+1035 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4122
+1038 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4124
+1039 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4132
+1040 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4134
+1041 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4142
+1042 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - masterattackspeedbuff
+1042 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4151
+1044 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4152
+1045 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4162
+1046 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4211
+1047 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4213
+1047 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4221
+1050 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4222
+1053 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Talent - 4232
+1056 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find CharData for Character "masteryi"!
+1068 [1] ERROR Chronobreak.GameServer.Content.ContentManager (null) - Could not find ParticleData for particle "yiglowblade.troy"!
+1073 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 2001
+1074 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Spell - recall
+1076 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5245
+1080 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5317
+1081 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5289
+1085 [1] INFO Chronobreak.GameServer.Content.ContentManager (null) - Loaded Item - 5335
+1086 [1] INFO Chronobreak.GameServer.Game (null) - GameServer ready for clients to connect on Port: 5119
+60395 [1] INFO Chronobreak.GameServer.PlayerManager (null) - The number of disconnected players 1/1
+60629 [1] INFO Chronobreak.GameServer.PlayerManager (null) - All players have left the server. It's lonely here :(

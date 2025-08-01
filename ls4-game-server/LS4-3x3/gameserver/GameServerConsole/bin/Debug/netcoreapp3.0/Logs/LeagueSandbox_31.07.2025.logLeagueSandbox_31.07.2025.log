@@ -1,0 +1,45 @@
+154 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Champions, skipping...
+185 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Spells, skipping...
+186 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Scripts does not contain Stats, skipping...
+3751 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Loaded all C# scripts from package: LeagueSandbox-Scripts
+3752 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: LeagueSandbox-Scripts
+3753 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Default does not contain Champions, skipping...
+3780 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - Package LeagueSandbox-Default does not contain Buffs, skipping...
+4349 [1] DEBUG LeagueSandbox.GameServer.Content.Package (null) - LeagueSandbox-Default does not have C# scripts, skipping...
+4350 [1] DEBUG LeagueSandbox.GameServer.Content.ContentManager (null) - Loaded package with name: LeagueSandbox-Default
+4356 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4358 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4358 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4359 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4360 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4361 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4362 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4362 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4363 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4364 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4365 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4366 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+4367 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4368 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4369 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4371 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4372 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4373 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4374 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4375 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4377 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4379 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4387 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4390 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221
+4392 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4111
+4393 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4112
+4394 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4114
+4395 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4124
+4396 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4134
+4396 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4142
+4398 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4151
+4403 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4152
+4406 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4162
+4407 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4211
+4408 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4213
+4409 [1] WARN LeagueSandbox.GameServer.Scripting.CSharp.CSharpScriptEngine (null) - Could not find script: Talents.Talent_4221

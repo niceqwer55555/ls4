@@ -1,0 +1,388 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\game\\lol\\Chronobreak\\Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj": {}
+  },
+  "projects": {
+    "D:\\game\\lol\\Chronobreak\\Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\Chronobreak\\Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj",
+        "projectName": "Chronobreak-Scripts",
+        "projectPath": "D:\\game\\lol\\Chronobreak\\Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\Chronobreak\\Content\\Chronobreak-Scripts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj"
+              },
+              "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj"
+              },
+              "D:\\game\\lol\\Chronobreak\\ScriptsCore\\ScriptsCore.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\ScriptsCore\\ScriptsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj",
+        "projectName": "GameServerCore",
+        "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\Chronobreak\\GameServerCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\game\\lol\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj"
+              },
+              "D:\\game\\lol\\Chronobreak\\QuadTree\\QuadTree.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\QuadTree\\QuadTree.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj",
+        "projectName": "GameServerLib",
+        "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\Chronobreak\\GameServerLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj"
+              },
+              "D:\\game\\lol\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj"
+              },
+              "D:\\game\\lol\\Chronobreak\\LENet\\LENet\\LENet.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\LENet\\LENet\\LENet.csproj"
+              },
+              "D:\\game\\lol\\Chronobreak\\QuadTree\\QuadTree.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\QuadTree\\QuadTree.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+        "projectName": "LeaguePackets",
+        "projectPath": "D:\\game\\lol\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\Chronobreak\\LeaguePackets\\LeaguePackets\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\Chronobreak\\LENet\\LENet\\LENet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\Chronobreak\\LENet\\LENet\\LENet.csproj",
+        "projectName": "LENet",
+        "projectPath": "D:\\game\\lol\\Chronobreak\\LENet\\LENet\\LENet.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\Chronobreak\\LENet\\LENet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\Chronobreak\\QuadTree\\QuadTree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\Chronobreak\\QuadTree\\QuadTree.csproj",
+        "projectName": "QuadTree",
+        "projectPath": "D:\\game\\lol\\Chronobreak\\QuadTree\\QuadTree.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\Chronobreak\\QuadTree\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\game\\lol\\Chronobreak\\ScriptsCore\\ScriptsCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\game\\lol\\Chronobreak\\ScriptsCore\\ScriptsCore.csproj",
+        "projectName": "ScriptsCore",
+        "projectPath": "D:\\game\\lol\\Chronobreak\\ScriptsCore\\ScriptsCore.csproj",
+        "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+        "outputPath": "D:\\game\\lol\\Chronobreak\\ScriptsCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerCore\\GameServerCore.csproj"
+              },
+              "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj": {
+                "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

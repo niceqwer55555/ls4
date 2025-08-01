@@ -1,0 +1,244 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CBProject-Converted/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GameServerCore": "1.0.0",
+          "GameServerLib": "1.0.0",
+          "ScriptsCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CBProject-Converted.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CBProject-Converted.dll": {}
+        }
+      },
+      "Chronobreak-Scripts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GameServerCore": "1.0.0",
+          "GameServerLib": "1.0.0",
+          "ScriptsCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Chronobreak-Scripts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chronobreak-Scripts.dll": {}
+        }
+      },
+      "GameServerCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "LeaguePackets": "1.0.0",
+          "QuadTree": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameServerCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameServerCore.dll": {}
+        }
+      },
+      "GameServerLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GameServerCore": "1.0.0",
+          "LENet": "1.0.0",
+          "LeaguePackets": "1.0.0",
+          "QuadTree": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameServerLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameServerLib.dll": {}
+        }
+      },
+      "LeaguePackets/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LeaguePackets.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeaguePackets.dll": {}
+        }
+      },
+      "LENet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LENet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LENet.dll": {}
+        }
+      },
+      "QuadTree/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/QuadTree.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuadTree.dll": {}
+        }
+      },
+      "ScriptPackage-Template/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ScriptsCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ScriptPackage-Template.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScriptPackage-Template.dll": {}
+        }
+      },
+      "ScriptsCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GameServerCore": "1.0.0",
+          "GameServerLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ScriptsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScriptsCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CBProject-Converted/1.0.0": {
+      "type": "project",
+      "path": "../Content/CBProject-Converted/CBProject-Converted.csproj",
+      "msbuildProject": "../Content/CBProject-Converted/CBProject-Converted.csproj"
+    },
+    "Chronobreak-Scripts/1.0.0": {
+      "type": "project",
+      "path": "../Content/Chronobreak-Scripts/Chronobreak-Scripts.csproj",
+      "msbuildProject": "../Content/Chronobreak-Scripts/Chronobreak-Scripts.csproj"
+    },
+    "GameServerCore/1.0.0": {
+      "type": "project",
+      "path": "../GameServerCore/GameServerCore.csproj",
+      "msbuildProject": "../GameServerCore/GameServerCore.csproj"
+    },
+    "GameServerLib/1.0.0": {
+      "type": "project",
+      "path": "../GameServerLib/GameServerLib.csproj",
+      "msbuildProject": "../GameServerLib/GameServerLib.csproj"
+    },
+    "LeaguePackets/1.0.0": {
+      "type": "project",
+      "path": "../LeaguePackets/LeaguePackets/LeaguePackets.csproj",
+      "msbuildProject": "../LeaguePackets/LeaguePackets/LeaguePackets.csproj"
+    },
+    "LENet/1.0.0": {
+      "type": "project",
+      "path": "../LENet/LENet/LENet.csproj",
+      "msbuildProject": "../LENet/LENet/LENet.csproj"
+    },
+    "QuadTree/1.0.0": {
+      "type": "project",
+      "path": "../QuadTree/QuadTree.csproj",
+      "msbuildProject": "../QuadTree/QuadTree.csproj"
+    },
+    "ScriptPackage-Template/1.0.0": {
+      "type": "project",
+      "path": "../ScriptPackage-Template/ScriptPackage-Template.csproj",
+      "msbuildProject": "../ScriptPackage-Template/ScriptPackage-Template.csproj"
+    },
+    "ScriptsCore/1.0.0": {
+      "type": "project",
+      "path": "../ScriptsCore/ScriptsCore.csproj",
+      "msbuildProject": "../ScriptsCore/ScriptsCore.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CBProject-Converted >= 1.0.0",
+      "Chronobreak-Scripts >= 1.0.0",
+      "GameServerLib >= 1.0.0",
+      "ScriptPackage-Template >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\555\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\game\\lol\\Chronobreak\\GameServerConsole\\GameServerConsole.csproj",
+      "projectName": "GameServerConsole",
+      "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerConsole\\GameServerConsole.csproj",
+      "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
+      "outputPath": "D:\\game\\lol\\Chronobreak\\GameServerConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\game\\lol\\Chronobreak\\Content\\CBProject-Converted\\CBProject-Converted.csproj": {
+              "projectPath": "D:\\game\\lol\\Chronobreak\\Content\\CBProject-Converted\\CBProject-Converted.csproj"
+            },
+            "D:\\game\\lol\\Chronobreak\\Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj": {
+              "projectPath": "D:\\game\\lol\\Chronobreak\\Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj"
+            },
+            "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj": {
+              "projectPath": "D:\\game\\lol\\Chronobreak\\GameServerLib\\GameServerLib.csproj"
+            },
+            "D:\\game\\lol\\Chronobreak\\ScriptPackage-Template\\ScriptPackage-Template.csproj": {
+              "projectPath": "D:\\game\\lol\\Chronobreak\\ScriptPackage-Template\\ScriptPackage-Template.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

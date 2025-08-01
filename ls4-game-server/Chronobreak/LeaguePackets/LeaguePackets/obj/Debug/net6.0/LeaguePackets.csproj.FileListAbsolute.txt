@@ -1,0 +1,10 @@
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\bin\Debug\net6.0\LeaguePackets.deps.json
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\bin\Debug\net6.0\LeaguePackets.dll
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\bin\Debug\net6.0\ref\LeaguePackets.dll
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\bin\Debug\net6.0\LeaguePackets.pdb
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net6.0\LeaguePackets.csproj.AssemblyReference.cache
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net6.0\LeaguePackets.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net6.0\LeaguePackets.csproj.CoreCompileInputs.cache
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net6.0\LeaguePackets.dll
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net6.0\ref\LeaguePackets.dll
+D:\game\lol\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net6.0\LeaguePackets.pdb

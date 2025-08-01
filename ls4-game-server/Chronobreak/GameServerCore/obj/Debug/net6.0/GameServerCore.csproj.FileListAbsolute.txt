@@ -1,0 +1,5 @@
+D:\game\lol\Chronobreak\GameServerCore\obj\Debug\net6.0\GameServerCore.csproj.AssemblyReference.cache
+D:\game\lol\Chronobreak\GameServerCore\obj\Debug\net6.0\GameServerCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\Chronobreak\GameServerCore\obj\Debug\net6.0\GameServerCore.AssemblyInfoInputs.cache
+D:\game\lol\Chronobreak\GameServerCore\obj\Debug\net6.0\GameServerCore.AssemblyInfo.cs
+D:\game\lol\Chronobreak\GameServerCore\obj\Debug\net6.0\GameServerCore.csproj.CoreCompileInputs.cache

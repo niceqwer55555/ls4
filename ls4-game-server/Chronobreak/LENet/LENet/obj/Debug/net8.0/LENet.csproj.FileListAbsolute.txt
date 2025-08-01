@@ -1,0 +1,23 @@
+D:\League Sandbox\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.deps.json
+D:\League Sandbox\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.dll
+D:\League Sandbox\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.pdb
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.GeneratedMSBuildEditorConfig.editorconfig
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.AssemblyInfoInputs.cache
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.AssemblyInfo.cs
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.csproj.CoreCompileInputs.cache
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.dll
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\refint\LENet.dll
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.pdb
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\ref\LENet.dll
+D:\game\lol\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.deps.json
+D:\game\lol\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.dll
+D:\game\lol\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.pdb
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.AssemblyInfoInputs.cache
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.AssemblyInfo.cs
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.csproj.CoreCompileInputs.cache
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.sourcelink.json
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.dll
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\refint\LENet.dll
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.pdb
+D:\game\lol\Chronobreak\LENet\LENet\obj\Debug\net8.0\ref\LENet.dll
