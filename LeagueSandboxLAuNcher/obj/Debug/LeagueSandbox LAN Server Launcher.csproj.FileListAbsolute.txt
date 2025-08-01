@@ -1,0 +1,14 @@
+D:\game\lol\LeagueSandboxLAuNcher\bin\Debug\LeagueSandbox LAN Server Launcher.exe
+D:\game\lol\LeagueSandboxLAuNcher\bin\Debug\LeagueSandbox LAN Server Launcher.pdb
+D:\game\lol\LeagueSandboxLAuNcher\bin\Debug\Newtonsoft.Json.dll
+D:\game\lol\LeagueSandboxLAuNcher\bin\Debug\Newtonsoft.Json.xml
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox_LAN_Server_Launcher.Form1.resources
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox_LAN_Server_Launcher.Form2.resources
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox_LAN_Server_Launcher.Properties.Resources.resources
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox LAN Server Launcher.csproj.GenerateResource.cache
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox LAN Server Launcher.csproj.CoreCompileInputs.cache
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox LAN Server Launcher.csproj.CopyComplete
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox LAN Server Launcher.exe
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox LAN Server Launcher.pdb
+D:\game\lol\LeagueSandboxLAuNcher\bin\Debug\LeagueSandbox LAN Server Launcher.exe.config
+D:\game\lol\LeagueSandboxLAuNcher\obj\Debug\LeagueSandbox LAN Server Launcher.csproj.AssemblyReference.cache
