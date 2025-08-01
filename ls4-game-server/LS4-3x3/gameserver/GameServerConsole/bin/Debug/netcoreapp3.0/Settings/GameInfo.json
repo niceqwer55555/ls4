@@ -1,6 +1,6 @@
 {
   "game" : {
-    "map" : 10,
+    "map" : 1,
     "dataPackage" : "LeagueSandbox-Scripts",
     "gameMode" : "CLASSIC"
   },
@@ -9,7 +9,7 @@
     "blowfishKey" : "17BLOhi6KZsTtldTsizvHg==",
     "rank" : "DIAMOND",
     "name" : "555",
-    "champion" : "MasterYi",
+    "champion" : "Yasuo",
     "team" : "BLUE",
     "skin" : 0,
     "summoner1" : "SummonerHeal",
