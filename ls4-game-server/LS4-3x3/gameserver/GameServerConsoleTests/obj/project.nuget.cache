@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XfuV6ozzc9NZbkNhceehT38j2wBoy7YeUxoQSokh0x42sq4Dlmd4ylrm3l1qyxQkMxgyCJ2z8piyZPAEUSEjhA==",
+  "dgSpecHash": "BlpYDAgDzPDcn6uiStSgy3XdW1VOfC3aome5hiaLWEg6JAzXjEAwvJBEcQLox5RabaV5gPq4Kf/adOis5SWEnQ==",
   "success": true,
-  "projectFilePath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerConsoleTests\\GameServerConsoleTests.csproj",
+  "projectFilePath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerConsoleTests\\GameServerConsoleTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\555\\.nuget\\packages\\commandlineparser\\2.6.0\\commandlineparser.2.6.0.nupkg.sha512",
     "C:\\Users\\555\\.nuget\\packages\\crc32.net\\1.2.0\\crc32.net.1.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lguMCPS9VPbawCk7v1iq3zS2vfadgD4HDoePmNBxqD2dg+ws4a2Z6BXESoO4GNLq+xjnPLFXVbNOwCTo+EQy/w==",
+  "dgSpecHash": "UyDTRG+XgXwUlMB860P3IZfzwfDQJz23U1cwDGfPgsR833unbp3YSIkiKUSAqBOkyPbp7KhWVCWPbizPhmRgHw==",
   "success": true,
-  "projectFilePath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj",
+  "projectFilePath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\555\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
   ],

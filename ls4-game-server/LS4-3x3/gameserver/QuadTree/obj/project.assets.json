@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj",
+      "projectUniqueName": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj",
       "projectName": "QuadTree",
-      "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj",
+      "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj",
       "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
-      "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\obj\\",
+      "outputPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\QuadTree\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",

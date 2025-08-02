@@ -1480,11 +1480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj",
+      "projectUniqueName": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj",
       "projectName": "GameServerLib",
-      "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj",
+      "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj",
       "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
-      "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLib\\obj\\",
+      "outputPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1501,17 +1501,17 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "D:\\game\\lol\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj": {
-              "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj"
+            "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj": {
+              "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj"
             },
-            "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj": {
-              "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj"
+            "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj": {
+              "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj"
             },
-            "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj": {
-              "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj"
+            "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj": {
+              "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj"
             },
-            "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj": {
-              "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj"
+            "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj": {
+              "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\QuadTree\\QuadTree.csproj"
             }
           }
         }

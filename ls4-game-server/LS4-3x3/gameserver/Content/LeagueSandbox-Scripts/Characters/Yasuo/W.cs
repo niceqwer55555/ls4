@@ -40,7 +40,7 @@ namespace Spells
         public void OnSpellPostCast(ISpell spell)
         {
              var owner = spell.CastInfo.Owner as IChampion;              
-			 var end = GetPointFromUnit(owner, 1200f);
+			 var end = GetPointFromUnit(owner, 400f);
              AddParticle(owner, null, "Yasuo_Base_W_windwall1.troy", end,4);   
              AddParticle(owner, null, "Yasuo_Base_W_windwall2.troy", end,4);
              AddParticle(owner, null, "Yasuo_Base_W_windwall3.troy", end,4);   

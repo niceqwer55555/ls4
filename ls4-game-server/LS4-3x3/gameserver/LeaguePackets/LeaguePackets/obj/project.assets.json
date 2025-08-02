@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+      "projectUniqueName": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
       "projectName": "LeaguePackets",
-      "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+      "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
       "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
-      "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\obj\\",
+      "outputPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\LeaguePackets\\LeaguePackets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",

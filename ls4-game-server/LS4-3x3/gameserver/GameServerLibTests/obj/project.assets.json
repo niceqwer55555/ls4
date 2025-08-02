@@ -3888,11 +3888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLibTests\\GameServerLibTests.csproj",
+      "projectUniqueName": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLibTests\\GameServerLibTests.csproj",
       "projectName": "GameServerLibTests",
-      "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLibTests\\GameServerLibTests.csproj",
+      "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLibTests\\GameServerLibTests.csproj",
       "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
-      "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLibTests\\obj\\",
+      "outputPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLibTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3909,8 +3909,8 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj": {
-              "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj"
+            "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj": {
+              "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj"
             }
           }
         }

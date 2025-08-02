@@ -1499,11 +1499,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\Content\\LeagueSandbox-Scripts\\LeagueSandbox-Scripts.csproj",
+      "projectUniqueName": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\Content\\LeagueSandbox-Scripts\\LeagueSandbox-Scripts.csproj",
       "projectName": "LeagueSandbox-Scripts",
-      "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\Content\\LeagueSandbox-Scripts\\LeagueSandbox-Scripts.csproj",
+      "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\Content\\LeagueSandbox-Scripts\\LeagueSandbox-Scripts.csproj",
       "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
-      "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\Content\\LeagueSandbox-Scripts\\obj\\",
+      "outputPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\Content\\LeagueSandbox-Scripts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1520,11 +1520,11 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj": {
-              "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj"
+            "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj": {
+              "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerCore\\GameServerCore.csproj"
             },
-            "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj": {
-              "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj"
+            "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj": {
+              "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameServerLib\\GameServerLib.csproj"
             }
           }
         }

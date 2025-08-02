@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HlTFH4eXcjLchAau8/9ToHU44ZhWIPK7HSbDl3CaZaCVulJrlEeYOhuYEoyhxka6rqRHhDEM0I79TpMuYagOYQ==",
+  "dgSpecHash": "Y3UO7CiOdgDwApSFGVIhb5mxn+8HD3FDLIkIp4kKZjz2M0z1kWH3UGfjzCRLxLggpTYGQh8qSmiXe32ie9glzw==",
   "success": true,
-  "projectFilePath": "D:\\game\\lol\\LS4-3x3\\gameserver\\Content\\LeagueSandbox-Scripts\\LeagueSandbox-Scripts.csproj",
+  "projectFilePath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\Content\\LeagueSandbox-Scripts\\LeagueSandbox-Scripts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\555\\.nuget\\packages\\crc32.net\\1.2.0\\crc32.net.1.2.0.nupkg.sha512",
     "C:\\Users\\555\\.nuget\\packages\\lenet\\1.0.1\\lenet.1.0.1.nupkg.sha512",

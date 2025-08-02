@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\game\\lol\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj": {}
+    "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj": {}
   },
   "projects": {
-    "D:\\game\\lol\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj": {
+    "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj",
+        "projectUniqueName": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj",
         "projectName": "GameMaths",
-        "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj",
+        "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameMaths\\GameMaths.csproj",
         "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
-        "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\GameMaths\\obj\\",
+        "outputPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\GameMaths\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",

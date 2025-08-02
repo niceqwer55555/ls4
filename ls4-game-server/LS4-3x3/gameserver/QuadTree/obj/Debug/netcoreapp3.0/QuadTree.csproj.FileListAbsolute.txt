@@ -8,3 +8,13 @@ D:\game\lol\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.Assembl
 D:\game\lol\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.csproj.CoreCompileInputs.cache
 D:\game\lol\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.dll
 D:\game\lol\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.pdb
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\bin\Debug\netcoreapp3.0\QuadTree.deps.json
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\bin\Debug\netcoreapp3.0\QuadTree.dll
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\bin\Debug\netcoreapp3.0\QuadTree.pdb
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.csproj.AssemblyReference.cache
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.GeneratedMSBuildEditorConfig.editorconfig
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.AssemblyInfoInputs.cache
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.AssemblyInfo.cs
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.csproj.CoreCompileInputs.cache
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.dll
+D:\game\lol\ls4\ls4-game-server\LS4-3x3\gameserver\QuadTree\obj\Debug\netcoreapp3.0\QuadTree.pdb

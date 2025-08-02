@@ -2880,11 +2880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitionsTests\\PacketDefinitionsTests.csproj",
+      "projectUniqueName": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\PacketDefinitionsTests\\PacketDefinitionsTests.csproj",
       "projectName": "PacketDefinitionsTests",
-      "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitionsTests\\PacketDefinitionsTests.csproj",
+      "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\PacketDefinitionsTests\\PacketDefinitionsTests.csproj",
       "packagesPath": "C:\\Users\\555\\.nuget\\packages\\",
-      "outputPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitionsTests\\obj\\",
+      "outputPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\PacketDefinitionsTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\555\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2901,8 +2901,8 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj": {
-              "projectPath": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj"
+            "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj": {
+              "projectPath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj"
             }
           }
         }

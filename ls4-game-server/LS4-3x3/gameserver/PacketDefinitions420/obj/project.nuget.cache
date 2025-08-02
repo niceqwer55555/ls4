@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ypE7/qglf07E7meS5kKed6S1IOTA3+5Nf5Vq6ho6hBwVgi1GEOmQw7LvS4eVKdusSDfaTs8M4awd3ROhsN6Hw==",
+  "dgSpecHash": "OMi6yBypF5zNn7vqstj2yLvagEDPpnPisVUOn3XWvHCYqykelTTyZjxaYgwjz5+C7plbIcUEMuDzo3It5LbFzw==",
   "success": true,
-  "projectFilePath": "D:\\game\\lol\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj",
+  "projectFilePath": "D:\\game\\lol\\ls4\\ls4-game-server\\LS4-3x3\\gameserver\\PacketDefinitions420\\PacketDefinitions420.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\555\\.nuget\\packages\\crc32.net\\1.2.0\\crc32.net.1.2.0.nupkg.sha512",
     "C:\\Users\\555\\.nuget\\packages\\lenet\\1.0.1\\lenet.1.0.1.nupkg.sha512",
