@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8081;
 
 // Serve static files from the 'public' directory
-app.use('/', express.static(path.join(__dirname, 'public')));
+app.use('/cdn', express.static(path.join(__dirname, 'public')));
 
 // Start the server
 app.listen(PORT, () => {
